@@ -130,8 +130,8 @@ a.active {
 }
 
 *,
- ::after,
- ::before {
+::after,
+::before {
     outline: none !important;
 }
 
@@ -277,7 +277,7 @@ a.active {
 }
 
 .py_60 {
-    padding: 60px 0px;
+    padding: 120px 0px;
 }
 
 .py_80 {
@@ -969,6 +969,7 @@ ul#menu li a {
 .service_two .srv_icon {
     width: 100px;
     height: 100px;
+    border-radius: 50px;
     transition: all .8s ease;
     text-align: center;
     margin: 0 auto
@@ -1424,6 +1425,7 @@ ul#menu li a {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -1433,6 +1435,7 @@ ul#menu li a {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -1931,70 +1934,6 @@ Slider Animation
 }
 
 
-/*  Youtube video
-============================================================================*/
-
-@-webkit-keyframes ball-scale-multiple {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0;
-    }
-    5% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-@keyframes ball-scale-multiple {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 0;
-    }
-    5% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-.ball-scale-multiple {
-    position: relative
-}
-
-.ball-scale-multiple>div:nth-child(2) {
-    -webkit-animation-delay: -0.4s;
-    animation-delay: -0.4s;
-}
-
-.ball-scale-multiple>div:nth-child(3) {
-    -webkit-animation-delay: -0.2s;
-    animation-delay: -0.2s;
-}
-
-.ball-scale-multiple>div {
-    border-radius: 100%;
-    margin: 2px;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    position: absolute;
-    opacity: 0;
-    margin: 0;
-    left: -70px;
-    top: -70px;
-    width: 140px;
-    height: 140px;
-    -webkit-animation: ball-scale-multiple 3s 0s linear infinite;
-    animation: ball-scale-multiple 3s 0s linear infinite;
-}
 
 
 /*============================================================================
@@ -2035,7 +1974,6 @@ Slider Animation
 /*
   Sidebar panel css
 ======================================*/
-
 
 /*----- Input Radio Switch ----*/
 
@@ -2469,6 +2407,7 @@ label.radios {
 ============================================================*/
 
 @media (min-width: 1200px) {
+
     .services,
     .portfolio2,
     .pricing,
@@ -2478,17 +2417,21 @@ label.radios {
     .footer_bottom {
         margin-left: 30px;
     }
+
     .hover_overlay .border h4 {
         margin-top: 15px;
         font-size: 24px;
         line-height: 20px;
     }
+
     .hover_overlay .border strong {
         margin-bottom: 5px;
     }
+
     .border {
         padding: 10px;
     }
+
     .border p {
         margin-bottom: 15px;
     }
@@ -2504,42 +2447,52 @@ label.radios {
         font-size: 28px;
         line-height: 32px;
     }
+
     h2 {
         font-size: 20px;
         line-height: 24px;
     }
+
     h3 {
         font-size: 16px;
         line-height: 20px;
     }
+
     h4 {
         font-size: 15px;
         line-height: 18px;
     }
+
     .member .hover_overlay {
         padding: 5px;
     }
+
     .border {
         padding: 10px;
     }
+
     .member .hover_overlay h4 {
         margin-bottom: 0px;
     }
+
     .member .hover_overlay strong {
         margin-bottom: 0px;
         font-size: 14px;
         font-weight: 500
     }
+
     .border p {
         margin-bottom: 10px;
         font-size: 13px;
         line-height: 16px;
     }
+
     .hover_overlay .socal_media ul li a {
         width: 40px;
         height: 40px;
         line-height: 32px;
     }
+
     .services,
     .portfolio2,
     .pricing,
@@ -2549,22 +2502,28 @@ label.radios {
     .footer_bottom {
         margin-left: 70px;
     }
+
     .member_feedback h5 {
         margin-bottom: 15px;
     }
+
     .service_one {
         padding: 30px 15px;
     }
+
     .admin span,
     .date {
         font-size: 14px;
     }
+
     .admin {
         padding: 0px;
     }
+
     .date {
         line-height: 38px;
     }
+
     /* Blog */
     .socal_media ul li a {
         width: 30px;
@@ -2575,30 +2534,38 @@ label.radios {
         border: 3px solid;
         font-size: 12px;
     }
+
     .blog_sidebar .widget {
         padding: 20px 15px;
         margin-bottom: 30px;
     }
+
     .category_sidebar ul li,
     .archives ul li {
         padding: 5px 0px;
     }
+
     .recent_post .post_img {
         width: 55px;
     }
+
     .recent_post_content h6 {
         font-size: 12px;
         line-height: 16px;
     }
+
     .recent_post ul li {
         margin-bottom: 10px;
     }
+
     .recent_post_content span {
         font-size: 13px;
     }
+
     .blog_details .comments {
         margin-top: -4px;
     }
+
     .share_post h4 {
         line-height: 31px;
     }
@@ -2613,28 +2580,36 @@ label.radios {
     .main_nav {
         background-color: #818181;
     }
+
     .mainbanner_content p {
         width: 71%;
     }
+
     .section_title_1 {
         width: 75%;
     }
+
     .about_myskill h2 {
         font-size: 30px;
     }
+
     .counter h3 {
         font-size: 15px;
     }
+
     .blog_item {
         margin-bottom: 30px;
     }
+
     .carousel-caption p {
         width: 100%;
     }
+
     /*  horizontal and vertical version responsive css */
     .video_content {
         padding: 0px;
     }
+
     .services,
     .portfolio2,
     .pricing,
@@ -2644,45 +2619,56 @@ label.radios {
     .footer_bottom {
         margin-left: 70px;
     }
+
     .main_title p {
         width: 80%;
     }
+
     .hover_overlay .border h4 {
         margin-top: 20px;
         font-size: 28px;
         line-height: 32px;
     }
+
     .hover_overlay .border strong {
         font-size: 24px;
     }
+
     .hover_overlay .border p {
         font-size: 16px;
         line-height: 26px;
         padding: 30px 30px 0px;
     }
+
     .hover_overlay .socal_media ul li a {
         width: 50px;
         height: 50px;
         line-height: 40px;
     }
+
     .contact_text span {
         font-size: 13px;
     }
+
     .company p,
     .company,
     .video_content {
         padding-bottom: 30px;
     }
+
     .company h1,
     .company p {
         padding-top: 30px;
     }
+
     .filters ul li {
         margin: 0px 10px;
     }
+
     .table {
         margin-bottom: 30px;
     }
+
     /* Blog */
     .socal_media ul li a {
         width: 30px;
@@ -2693,30 +2679,38 @@ label.radios {
         border: 3px solid;
         font-size: 12px;
     }
+
     .blog_sidebar .widget {
         padding: 20px 10px;
         margin-bottom: 30px;
     }
+
     .category_sidebar ul li,
     .archives ul li {
         padding: 5px 0px;
     }
+
     .recent_post .post_img {
         width: 55px;
     }
+
     .recent_post_content h6 {
         font-size: 12px;
         line-height: 16px;
     }
+
     .recent_post ul li {
         margin-bottom: 10px;
     }
+
     .recent_post_content span {
         font-size: 13px;
     }
+
     .blog_details .date {
         line-height: 40px;
     }
+
     .replied {
         margin-left: 40px;
     }
@@ -2731,35 +2725,45 @@ label.radios {
     .mainbanner_content p {
         width: 100%;
     }
+
     .section_title_1 {
         width: 100%;
     }
+
     .counter,
     .blog_item {
         margin-bottom: 30px;
     }
+
     .filters ul li {
         margin: 5px 10px
     }
+
     .skill-progress {
         margin-top: 20px;
     }
+
     .contact_message {
         margin-top: 50px;
     }
+
     /*  horizontal and vertical version responsive css */
     .banner_title {
         font-size: 18px;
     }
+
     .main_nav {
         background-color: #818181;
     }
+
     .sidebar img {
         margin-bottom: 20px;
     }
+
     .socal_media {
         margin-top: 20px;
     }
+
     .socal_media ul li a {
         width: 30px;
         height: 30px;
@@ -2769,49 +2773,61 @@ label.radios {
         border: 2px solid;
         font-size: 11px;
     }
+
     .carousel-caption {
         top: 40%;
     }
+
     .contact_massage {
         top: 20px;
         width: 50px;
         height: 50px;
     }
+
     .contact_massage a {
         font-size: 20px;
         line-height: 50px;
     }
+
     .carousel-caption p {
         font-size: 14px;
         line-height: 22px;
         width: 100%;
     }
+
     .carousel-caption {
         left: 15%;
     }
+
     h1 {
         font-size: 20px;
         line-height: 24px;
     }
+
     h2 {
         font-size: 22px;
         line-height: 26px;
     }
+
     h3 {
         font-size: 20px;
         line-height: 24px;
     }
+
     h4 {
         font-size: 16px;
         line-height: 22px;
     }
+
     .btn {
         padding: 5px 15px;
         font-size: 12px;
     }
+
     .sidebar {
         padding: 15px 10px;
     }
+
     .about_myself,
     .education_experience,
     .video_content,
@@ -2824,48 +2840,61 @@ label.radios {
     .footer_bottom {
         margin-left: 70px;
     }
+
     .main_title p {
         width: 90%;
     }
+
     .education_experience .company span {
         margin-bottom: 15px;
         display: inline-block;
     }
+
     .education_experience .company h1 {
         margin-top: 15px;
     }
+
     .company,
     .company p {
         padding-bottom: 15px;
     }
+
     .video_content {
         padding-bottom: 30px;
     }
+
     .hover_overlay .border h4 {
         margin-top: 0px;
         font-size: 18px;
         line-height: 20px;
     }
+
     .hover_overlay .border strong {
         font-size: 20px;
     }
+
     .hover_overlay .border p {
         font-size: 16px;
         line-height: 26px;
         padding: 15px 15px 0px;
     }
+
     .footer-widget .main_title {
         margin-top: 30px;
     }
+
     .counter-box {
         margin-top: 20px;
     }
+
     .pagination {
         margin-bottom: 60px;
     }
+
     .recent_post_content span {
         font-size: 13px;
     }
+
     .reply_form {
         margin-bottom: 60px;
     }
@@ -2881,67 +2910,85 @@ label.radios {
         font-size: 26px;
         line-height: 34px;
     }
+
     .counter,
     .blog_item {
         margin-bottom: 30px;
     }
+
     .banner_title {
         font-size: 20px;
     }
+
     .mainbanner_content p {
         font-size: 14px;
         letter-spacing: 1px;
         line-height: 21px;
         width: 100%;
     }
+
     .section_title_1 {
         width: 100%;
         font-size: 14px;
     }
+
     .section_title_1 .title {
         font-size: 24px;
         line-height: 36px;
     }
+
     .skill-progress {
         margin-top: 20px;
     }
+
     .about_myskill h2 {
         font-size: 24px;
     }
+
     .main_nav {
         background-color: #818181;
     }
+
     .sidebar {
         padding: 30px 10px;
     }
+
     .carousel-caption {
         left: 30%;
     }
+
     h1 {
         font-size: 20px;
         line-height: 24px;
     }
+
     h2 {
         font-size: 18px;
         line-height: 23px;
     }
+
     h3 {
         font-size: 17px;
         line-height: 22px;
     }
+
     .btn {
         padding: 5px 15px;
         font-size: 12px;
     }
+
     .carousel-caption {
         top: 43%;
     }
+
     .carousel-caption p {
         width: 100%;
     }
+
     .pattan:after {
         width: 50%;
     }
+
     .about_myself,
     .education_experience,
     .video_content,
@@ -2954,68 +3001,87 @@ label.radios {
     .footer_bottom {
         margin-left: 70px;
     }
+
     .main_title p {
         width: 100%;
     }
+
     .education_experience .company span {
         margin-bottom: 15px;
         display: inline-block;
     }
+
     .education_experience .company h1,
     .company p {
         margin-top: 15px;
     }
+
     .company,
     .company p {
         padding-bottom: 15px;
     }
+
     .video_content {
         padding-bottom: 30px;
     }
+
     .service_one {
         padding: 30px 10px;
         margin: 0px;
     }
+
     .filters ul li {
         margin: 0px 10px;
     }
+
     .tag ul li {
         font-size: 12px;
     }
+
     .member .hover_overlay {
         padding: 0px;
     }
+
     .member .hover_overlay h4 {
         margin-bottom: 0px;
     }
+
     .member .hover_overlay .border strong {
         margin-bottom: 5px;
     }
+
     .border {
         padding: 12px;
     }
+
     .border p {
         margin-bottom: 15px;
         font-size: 13px;
         line-height: 18px;
     }
+
     .hover_overlay .socal_media ul li a {
         width: 40px;
         height: 40px;
         line-height: 32px;
     }
+
     .hover_overlay .socal_media {
         padding-bottom: 3px;
     }
+
     .member_feedback {
         margin: 60px 0px 10px 0px;
     }
+
     .footer-widget .main_title {
         margin-top: 30px;
     }
+
     .pagination {
         margin-bottom: 60px;
     }
+
     .replied {
         margin-left: 35px;
     }
@@ -3027,6 +3093,7 @@ label.radios {
 ============================================================*/
 
 @media (max-width: 480px) {
+
     h1,
     h2,
     h3,
@@ -3035,13 +3102,16 @@ label.radios {
     h6 {
         font-weight: 600
     }
+
     body {
         font-size: 14px;
     }
+
     h1 {
         font-size: 18px;
         line-height: 22px;
     }
+
     .about_myself,
     .education_experience,
     .video_content,
@@ -3054,35 +3124,44 @@ label.radios {
     .footer_bottom {
         margin-left: 55px;
     }
+
     .main_nav {
         background-color: #818181 !important;
     }
+
     .about_myskill h2 {
         font-size: 24px;
         line-height: 32px;
     }
+
     .filters ul li {
         margin: 0px 8px;
         font-size: 14px;
     }
+
     .admin {
         padding: 0px;
     }
+
     .date {
         font-size: 13px;
         line-height: 40px;
     }
+
     .socal_media_2 {
         margin-bottom: 30px;
     }
+
     /*  horizontal and vertical version responsive css */
     .carousel-caption p {
         font-size: 13px;
         line-height: 18px;
     }
+
     .sidebar img {
         margin-bottom: 25px;
     }
+
     .socal_media ul li a {
         width: 40px;
         height: 40px;
@@ -3091,33 +3170,42 @@ label.radios {
         border-radius: 50%;
         border: 5px solid;
     }
+
     #education .nav-item {
         margin: 0px 10px 10px 0px;
     }
+
     .socal_media {
         margin-top: 25px;
     }
+
     .service_one {
         margin: 15px 10px;
     }
+
     .member .data h4,
     .member .data strong {
         font-size: 14px;
         padding: 5px 15px;
     }
+
     .hover_overlay .socal_media {
         display: none;
     }
+
     .hover_overlay p {
         font-size: 12px;
     }
+
     .hover_overlay .border p {
         font-size: 13px;
         line-height: 22px;
     }
+
     .hover_overlay .border p {
         padding: 0px;
     }
+
     .hover_overlay .border strong {
         font-size: 15px;
     }
