@@ -818,8 +818,8 @@ ul#menu li a {
 .profile_img {
     position: relative;
     width: 75%;
+    margin-top: 25px;
 }
-
 
 /*===============================================================================
 13.   Progress Bar and Fact Counter
@@ -2581,7 +2581,7 @@ label.radios {
 
 @media (max-width: 991px) {
     .main_nav {
-        background-color: #818181;
+        background-color: rgba(255, 255, 255, 0.05);
     }
 
     .mainbanner_content p {
@@ -2756,7 +2756,7 @@ label.radios {
     }
 
     .main_nav {
-        background-color: #818181;
+        background-color: rgba(255, 255, 255, 0.05);
     }
 
     .sidebar img {
@@ -2949,7 +2949,7 @@ label.radios {
     }
 
     .main_nav {
-        background-color: #818181;
+        background-color: rgba(255, 255, 255, 0.05);
     }
 
     .sidebar {
@@ -3129,7 +3129,7 @@ label.radios {
     }
 
     .main_nav {
-        background-color: #818181 !important;
+        background-color: rgba(255, 255, 255, 0.05) !important;
     }
 
     .about_myskill h2 {
