@@ -313,11 +313,11 @@ a.active {
 03.   Social Media
 =========================================================================*/
 
-.socal_media ul li {
+.social_media_2 ul li {
     margin-bottom: 15px;
 }
 
-.socal_media ul li a,
+.social_media_2 ul li a,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .contact_icon,
@@ -330,7 +330,7 @@ a.active {
     border: 5px solid;
 }
 
-.socal_media_2 ul li {
+.social_media_2 ul li {
     float: left;
     padding-right: 20px;
     font-size: 18px;
@@ -1157,19 +1157,19 @@ ul#menu li a {
     opacity: 0;
 }
 
-.hover_overlay .socal_media {
+.hover_overlay .social_media {
     text-align: center;
     margin: 0 auto;
     display: table;
 }
 
-.hover_overlay .socal_media ul li {
+.hover_overlay .social_media ul li {
     float: left;
     margin-right: 5px;
     margin-bottom: 0px;
 }
 
-.hover_overlay .socal_media ul li a {
+.hover_overlay .social_media ul li a {
     width: 45px;
     height: 45px;
     line-height: 36px;
@@ -1325,11 +1325,14 @@ ul#menu li a {
 
 .contact_info ul li {
     margin-bottom: 10px;
+    text-align: center;
+    display: grid;
 }
 
 .contact_text h6 {
     font-weight: 600;
     letter-spacing: 1px;
+
 }
 
 .form-control {
@@ -1639,7 +1642,7 @@ nav ul li.page-item {
 26.  Blog Sidebar
 =================================================================================*/
 
-.widget .socal_media ul li {
+.widget .social_media ul li {
     float: left;
     margin-right: 7px;
 }
@@ -1746,7 +1749,7 @@ blockquote {
 
 
 /*============================================================================
- 28.  Template Default Animation Css
+ 28.  Default Animation Css
  =============================================================================*/
 
 
@@ -2487,7 +2490,7 @@ label.radios {
         line-height: 16px;
     }
 
-    .hover_overlay .socal_media ul li a {
+    .hover_overlay .social_media ul li a {
         width: 40px;
         height: 40px;
         line-height: 32px;
@@ -2525,7 +2528,7 @@ label.radios {
     }
 
     /* Blog */
-    .socal_media ul li a {
+    .social_media ul li a {
         width: 30px;
         height: 30px;
         line-height: 23px;
@@ -2640,7 +2643,7 @@ label.radios {
         padding: 30px 30px 0px;
     }
 
-    .hover_overlay .socal_media ul li a {
+    .hover_overlay .social_media ul li a {
         width: 50px;
         height: 50px;
         line-height: 40px;
@@ -2670,7 +2673,7 @@ label.radios {
     }
 
     /* Blog */
-    .socal_media ul li a {
+    .social_media ul li a {
         width: 30px;
         height: 30px;
         line-height: 23px;
@@ -2760,11 +2763,11 @@ label.radios {
         margin-bottom: 20px;
     }
 
-    .socal_media {
+    .social_media {
         margin-top: 20px;
     }
 
-    .socal_media ul li a {
+    .social_media ul li a {
         width: 30px;
         height: 30px;
         line-height: 28px;
@@ -3060,13 +3063,13 @@ label.radios {
         line-height: 18px;
     }
 
-    .hover_overlay .socal_media ul li a {
+    .hover_overlay .social_media ul li a {
         width: 40px;
         height: 40px;
         line-height: 32px;
     }
 
-    .hover_overlay .socal_media {
+    .hover_overlay .social_media {
         padding-bottom: 3px;
     }
 
@@ -3148,7 +3151,7 @@ label.radios {
         line-height: 40px;
     }
 
-    .socal_media_2 {
+    .social_media_2 {
         margin-bottom: 30px;
     }
 
@@ -3162,7 +3165,7 @@ label.radios {
         margin-bottom: 25px;
     }
 
-    .socal_media ul li a {
+    .social_media ul li a {
         width: 40px;
         height: 40px;
         line-height: 32px;
@@ -3175,7 +3178,7 @@ label.radios {
         margin: 0px 10px 10px 0px;
     }
 
-    .socal_media {
+    .social_media {
         margin-top: 25px;
     }
 
@@ -3189,7 +3192,7 @@ label.radios {
         padding: 5px 15px;
     }
 
-    .hover_overlay .socal_media {
+    .hover_overlay .social_media {
         display: none;
     }
 
