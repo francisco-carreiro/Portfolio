@@ -14,7 +14,7 @@ Table of CSS Content arrage with every section name
 
 01.   Default Css
 02.   Default Margin and Padding
-03.   Socal Media
+03.   social Media
 04.   Massage Box
 05.	  Main Title
 06.   background Image
@@ -1585,7 +1585,6 @@ ul#menu li a {
     border: 8px solid transparent;
 }
 
-
 /*===============================================================================
 24.   Page Banner
 =================================================================================*/
@@ -1593,26 +1592,6 @@ ul#menu li a {
 .banner {
     padding: 110px 0px;
 }
-
-.page_banner_title {
-    margin-top: 10px;
-}
-
-.banner_text {
-    position: relative;
-    z-index: 11;
-}
-
-.breadcrumbs ul li {
-    float: left;
-    margin-right: 15px;
-    display: inline-block;
-}
-
-.breadcrumbs ul li:last-child {
-    margin-right: 0px;
-}
-
 
 /*===============================================================================
 25.   Page Nav

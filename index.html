@@ -8,9 +8,10 @@
     <meta name="description" content="Francisco Machado Carreiro Portfolio V2.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
-        content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, designer, developer">
+        content="business, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, designer, developer">
     <meta name="author" content="root">
 
+    <!--===== CSS =====-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon.css">
@@ -18,25 +19,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css" id="color-change">
 
-    <!-- Favicon 
-==================================================-->
+    <!--===== Favicon =====-->
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
 
-    <!--	Title
-==================================================-->
+    <!--===== Title =====-->
     <title>Francisco Carreiro Portfolio</title>
-
 </head>
 
-<body id="top" class="page-load" oncontextmenu="return false">
-    <!--	Start Back to top
-=================================================-->
+<body id="top" class="page-load">
     <a href="#" id="scroll" style="display: none;"><span></span></a>
-    <!--	End Back to top
-==================================================-->
 
-    <!--	Preloader
-==================================================-->
+    <!--===== Preloader =====-->
     <div class="preloader">
         <div class="lds-css ng-scope">
             <div class="lds-spinner" style="width:100%; height:100%">
@@ -56,12 +49,11 @@
         </div>
     </div>
 
-    <!-- Wrapper Start 
-==================================================-->
+    <!--===== Wrapper start =====-->
     <div id="page_wrapper">
         <div class="row">
-            <!-- Start Nav Menu 
-==============================================-->
+
+            <!--===== Start Nav Menu =====-->
             <header class="main_nav dark_nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-dark w-100">
@@ -85,10 +77,9 @@
                     </nav>
                 </div>
             </header>
-            <!-- End Nav Menu
-==================================================-->
-            <!--	Start Main Banner 
-==================================================-->
+            <!--===== End Nav Menu =====-->
+
+            <!--===== Start Main Banner =====-->
             <section id="main_banner" class="banner_image">
                 <div class="overlay_image"></div>
                 <div class="overlay_fade"></div>
@@ -120,10 +111,9 @@
                 </div>
 
             </section>
-            <!--	End Main Banner 
-==================================================-->
-            <!--	Start About
-===================================================-->
+            <!--===== End Main Banner =====-->
+
+            <!--===== Start About Me =====-->
             <section id="about" class="py_80 bg_black full_row">
                 <div class="container">
                     <div class="row">
@@ -181,10 +171,9 @@
                     </div>
                 </div>
             </section>
-            <!--	End About
-===================================================-->
-            <!--	Start Skills tab
-===================================================-->
+            <!--===== End About Me =====-->
+
+            <!--===== Start Skills Tab =====-->
             <section id="skill" class="py_80 bg_deepblack full_row">
                 <div class="container">
                     <div class="row">
@@ -358,10 +347,9 @@
                     </div>
                 </div>
             </section>
-            <!--	End Skills tab
-===================================================-->
-            <!--	Start Services
-===================================================-->
+            <!--===== End Skills Tab =====-->
+
+            <!--===== Start Services =====-->
             <section id="services" class="py_80 bg_black full_row">
                 <div class="container">
                     <div class="row">
@@ -422,10 +410,9 @@
                     </div>
                 </div>
             </section>
-            <!--	End Services
-===================================================-->
-            <!--	Start Portfolio
-===================================================-->
+            <!--===== End Services =====-->
+
+            <!--===== Start Portfolio =====-->
             <section id="portfolio" class="py_80 bg_deepblack full_row">
                 <div class="container">
                     <div class="row">
@@ -571,10 +558,9 @@
                     </div>
                 </div>
             </section>
-            <!--	End Portfolio
-===================================================-->
-            <!--	Start Contact
-===================================================-->
+            <!--===== End Portfolio =====-->
+
+            <!--===== Start Contact =====-->
             <section id="contact" class="py_80 bg_black full_row">
                 <div class="container">
                     <div class="row">
@@ -620,10 +606,9 @@
                     </div>
                 </div>
             </section>
-            <!--	End Contact
-===================================================-->
-            <!--	Start Footer
-===================================================-->
+            <!--===== End Contact =====-->
+
+            <!--===== Start Footer =====-->
             <footer class="p_20 color_lightgray bg_deepblack text-center full_row">
                 <div class="container">
                     <div class="row">
@@ -635,36 +620,30 @@
                     </div>
                 </div>
             </footer>
-            <!--	End Footer
-===================================================-->
+            <!--===== End Footer =====-->
         </div>
     </div>
-    <!--	Wrapper End
-=======================================================-->
-    <!--	Js Links
-===================================================-->
+    <!--===== Wrapper End =====-->
+
+    <!--===== JavaScript imports =====-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/jquery.pagepiling.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <!--===== Smoothscroll Fix =====-->
     <script>
         $(document).ready(function () {
-            //   Smoothscroll js
-            //=====================================
 
             $("a").on('click', function (event) {
-
                 if (this.hash !== "") {
                     event.preventDefault();
-
                     var hash = this.hash;
-
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 1000, function () {
-
                         window.location.hash = hash;
                     });
                 }

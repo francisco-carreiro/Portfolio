@@ -82,7 +82,7 @@ others: #DFF6FF/#1363DF
     color: #fff;
 }
 
-.socal_media ul li a:hover {
+.social_media ul li a:hover {
     color: #fff;
     filter: brightness(115%);
 }
@@ -161,7 +161,7 @@ ul#menu li.active a,
 .comments,
 .blog_item a:hover,
 .navbar-light .navbar-nav .nav-link:hover,
-.socal_media_2 ul li a:hover,
+.social_media_2 ul li a:hover,
 ul#menu li a:hover,
 .twite i,
 .twite a:hover,
@@ -177,7 +177,7 @@ ul#menu li a:hover,
 ===================================================================*/
 
 .primary_link a,
-.socal_media_2 ul li a,
+.social_media_2 ul li a,
 .contact_message .error,
 .page-link,
 .recent_post a,
@@ -194,7 +194,7 @@ ul#menu li a:hover,
 .default-portfolio-item .overlay-box span,
 .tag,
 .sidebar span,
-.socal_media ul li a,
+.social_media ul li a,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .table:hover h4,
@@ -202,8 +202,6 @@ ul#menu li a:hover,
 .table:hover h5,
 .contact_icon,
 .bg_black .form label,
-.breadcrumbs ul li,
-.breadcrumbs ul li a,
 .page-item.active .page-link,
 .page-link:hover,
 .tags ul li a:hover,
@@ -227,7 +225,7 @@ ul#menu li a:hover,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .lds-spinner div,
-.socal_media ul li a,
+.social_media ul li a,
 #pp-nav li .active span,
 .pp-slidesNav .active span,
 .carousel-indicators .active,
@@ -306,7 +304,7 @@ ul#menu li a:hover,
     border-bottom-color: #1363DF;
 }
 
-.socal_media ul li a,
+.social_media ul li a,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .srvicon,
