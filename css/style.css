@@ -1,47 +1,10 @@
 /**
-  
 * Author: Francisco Machado Carreiro
 * Email: franciscomcarreiro@gmail.com
 * Developed By: Francisco Machado Carreiro
 * Author URL: https://github.com/francisco-carreiro
-
 **/
 
-
-/*===================================================================================
-Table of CSS Content arrage with every section name
-=====================================================================================
-
-01.   Default Css
-02.   Default Margin and Padding
-03.   social Media
-04.   Massage Box
-05.	  Main Title
-06.   background Image
-07.   Nav Menu Css
-08.   Side Nav menu
-09.   Main banner
-10.   Slider 
-11.	  About
-12.	  Video Popup 
-13.	  Progress Bar and Fact Counter
-14.   Services One
-15.   Services Two
-16.	  Portfolio
-17.   Pricing
-18.   Team
-19.	  Testimonial
-20.   Blog
-21.   Contact
-22.   Preloader 
-23.   Back to Top
-24.   Page Banner
-25.   Page Nav
-26.   Blog Sidebar
-27.   Blog Details
-28.   Template Default Animation Css
-29.   Color Settings
-30.   Responsive Media Queries Css
 /*===================================================================================
 	Typography links 
  	Import Google Fonts
@@ -199,11 +162,9 @@ a.active {
     box-shadow: inset 0 0 5px #ececec !important;
 }
 
-
 /*=====================================================================================
 02.		Default Margin and Padding
 ========================================================================================*/
-
 
 /*  Margin 
 ======================*/
@@ -264,7 +225,6 @@ a.active {
     margin: 0 auto;
 }
 
-
 /*  padding  
 ========================*/
 
@@ -308,7 +268,6 @@ a.active {
     padding-bottom: 30px;
 }
 
-
 /*=======================================================================
 03.   Social Media
 =========================================================================*/
@@ -336,7 +295,6 @@ a.active {
     font-size: 20px;
 }
 
-
 /*====================================================================
 04.   Massage Box
 ======================================================================*/
@@ -358,7 +316,6 @@ a.active {
     margin: 0 auto;
     text-align: center;
 }
-
 
 /*====================================================================
 05.		Main Title
@@ -458,20 +415,9 @@ a.active {
     height: 2px;
 }
 
-
 /*====================================================================
 06.   background Image
 ======================================================================*/
-
-.overlay_image {
-    position: absolute;
-    background-image: url(../images/slider/05.png);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-}
 
 .overlay_fade {
     position: absolute;
@@ -502,45 +448,6 @@ video {
 .bg_transparent {
     background-color: transparent;
 }
-
-.background1 {
-    background-image: url(../images/slider/03.jpg);
-}
-
-.background2 {
-    background: url(../images/background/bg.jpg) no-repeat center fixed;
-}
-
-.background3 {
-    background-image: url(../images/slider/04.jpg);
-}
-
-.background5 {
-    background-image: url(../images/slider/06.jpg);
-}
-
-.background6 {
-    background-image: url(../images/footer.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-}
-
-.background7 {
-    background-image: url(../images/background/02.jpg);
-}
-
-.background8 {
-    background-image: url(../images/background/03.png);
-}
-
-.background9 {
-    background-image: url(../images/background/04.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
 
 /*====================================================================
 07.   Nav Menu Css
@@ -615,7 +522,6 @@ header {
     opacity: 1;
 }
 
-
 /*==================================================================================
 08.   Side Nav menu
 ====================================================================================*/
@@ -675,13 +581,11 @@ ul#menu li a {
     margin: 15px 0px 30px 30px;
 }
 
-
 /*====================================================================
 09.   Main banner
 ======================================================================*/
 
-.banner_image,
-.banner_water_effect {
+.banner_image {
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -705,7 +609,6 @@ ul#menu li a {
     letter-spacing: 1px;
     width: 50%;
 }
-
 
 /*===============================================================================
 10.   Slider 
@@ -782,7 +685,6 @@ ul#menu li a {
     min-height: 100%;
 }
 
-
 /*===============================================================================
 11.		About
 =================================================================================*/
@@ -810,7 +712,6 @@ ul#menu li a {
     float: right;
 }
 
-
 /*===============================================================================
 12.		Profile Image 
 =================================================================================*/
@@ -824,7 +725,6 @@ ul#menu li a {
 /*===============================================================================
 13.   Progress Bar and Fact Counter
 =================================================================================*/
-
 
 /* progress-bar */
 
@@ -884,7 +784,6 @@ ul#menu li a {
     letter-spacing: 3px;
 }
 
-
 /*==================================================================================
 14.   Services One
 ====================================================================================*/
@@ -929,7 +828,6 @@ ul#menu li a {
 .owl-carousel .owl-nav.disabled {
     display: block !important;
 }
-
 
 /*==================================================================================
 15.   Services Two
@@ -987,7 +885,6 @@ ul#menu li a {
 .service_two:hover .srv_icon {
     transform: rotateY(180deg);
 }
-
 
 /*===============================================================================
 16.		Portfolio
@@ -1078,249 +975,8 @@ ul#menu li a {
     border: 5px solid
 }
 
-
-/*============================================================================
-17.   Pricing
-==============================================================================*/
-
-.table {
-    border-radius: 20px;
-    padding: 40px 30px;
-}
-
-.table h1 {
-    font-family: 'Poppins', sans-serif;
-}
-
-.table ul li {
-    padding: 7px;
-    border-bottom: 1px solid;
-}
-
-.table ul li:last-child {
-    border-bottom: none;
-}
-
-
-/*===========================================================================
-18.   Team
-=============================================================================*/
-
-.member {
-    position: relative;
-}
-
-.member .data {
-    -moz-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
-    display: inline-block;
-    position: absolute;
-}
-
-.member .data h4,
-.member .data strong {
-    padding: 10px 30px;
-    display: block;
-}
-
-.data strong {
-    letter-spacing: 2px;
-    font-weight: 500;
-}
-
-.border h4,
-.border strong {
-    margin-bottom: 0px;
-}
-
-.border strong {
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-.member .hover_overlay {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-}
-
-.hover_overlay .social_media {
-    text-align: center;
-    margin: 0 auto;
-    display: table;
-}
-
-.hover_overlay .social_media ul li {
-    float: left;
-    margin-right: 5px;
-    margin-bottom: 0px;
-}
-
-.hover_overlay .social_media ul li a {
-    width: 45px;
-    height: 45px;
-    line-height: 36px;
-}
-
-.border {
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    border: 3px solid !important;
-}
-
-.border p {
-    margin-bottom: 25px;
-}
-
-.member:hover .data {
-    opacity: 0;
-}
-
-
-/*============================================================================
-19.		Testimonial
-==============================================================================*/
-
-.member_feedback {
-    position: relative;
-    margin: 60px 15px 10px 15px;
-}
-
-.member_feedback h5 {
-    letter-spacing: 2px;
-}
-
-.client_img img {
-    width: 100px !important;
-    height: auto;
-    border-radius: 100%;
-    position: absolute;
-    top: -50px;
-    left: 30px;
-    margin-bottom: 20px;
-}
-
-.star {
-    margin-top: 40px;
-}
-
-.member_feedback h5 {
-    font-weight: 500
-}
-
-.star ul li {
-    float: left;
-    margin-right: 5px;
-}
-
-.member_feedback:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: -1px;
-    background-image: url(../images/testimonial/clone.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    opacity: 0.04;
-    background-position: top right;
-    overflow: hidden;
-}
-
-.owl-carousel .owl-nav button.owl-prev span,
-.owl-carousel .owl-nav button.owl-next span {
-    font-size: 20px;
-    line-height: 40px;
-    font-weight: 600;
-}
-
-.owl-carousel .owl-nav button.owl-prev {
-    margin-right: 10px;
-}
-
-
 /*===============================================================================
-20.   Blog
-=================================================================================*/
-
-.blog_item {
-    position: relative;
-}
-
-.comments {
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index: 11;
-    font-size: 42px;
-}
-
-.comments span {
-    position: absolute;
-    top: 7px;
-    right: 12px;
-    z-index: 11;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.blog_content {
-    padding: 30px 15px;
-    display: inline-block;
-}
-
-.blog_title a h5 {
-    line-height: 24px;
-}
-
-.blog_img {
-    overflow: hidden;
-}
-
-.admin {
-    border-radius: 30px;
-    padding: 5px;
-    display: inline-block;
-    float: left;
-}
-
-.admin img {
-    width: 40px !important;
-    height: 40px;
-    border-radius: 100%;
-    margin-right: 10px;
-    float: left;
-}
-
-.admin span {
-    padding-right: 15px;
-    line-height: 39px;
-}
-
-.date {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 50px;
-}
-
-
-/*===============================================================================
-21.   Contact
+17.   Contact
 =================================================================================*/
 
 .contact_info ul li {
@@ -1411,7 +1067,7 @@ ul#menu li a {
 
 
 /*===============================================================================
-22.   Preloader 
+18.   Preloader 
 =================================================================================*/
 
 .preloader {
@@ -1554,9 +1210,8 @@ ul#menu li a {
     transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
 
-
 /*===============================================================================
-23.   Back to Top
+19.   Back to Top
 =================================================================================*/
 
 #scroll {
@@ -1586,7 +1241,7 @@ ul#menu li a {
 }
 
 /*===============================================================================
-24.   Page Banner
+20.   Page Banner
 =================================================================================*/
 
 .banner {
@@ -1594,7 +1249,7 @@ ul#menu li a {
 }
 
 /*===============================================================================
-25.   Page Nav
+21.   Page Nav
 =================================================================================*/
 
 nav ul li.page-item {
@@ -1616,121 +1271,9 @@ nav ul li.page-item {
     border-radius: 50%;
 }
 
-
-/*===============================================================================
-26.  Blog Sidebar
-=================================================================================*/
-
-.widget .social_media ul li {
-    float: left;
-    margin-right: 7px;
-}
-
-.category_sidebar ul li,
-.archives ul li {
-    padding: 7px 0px;
-    text-align: right;
-    width: 100%;
-    display: inline-block;
-}
-
-.category_sidebar ul li a,
-.archives ul li a {
-    float: left;
-}
-
-.recent_post .post_img {
-    width: 80px;
-    height: auto;
-    float: left;
-}
-
-.recent_post_content {
-    display: inline-block;
-    padding-left: 15px;
-    width: 70%;
-}
-
-.tags ul li {
-    float: left;
-    margin: 0px 5px 5px 0px;
-}
-
-.tags ul li a {
-    padding: 5px 25px;
-    border-radius: 50px;
-}
-
-
-/*===============================================================================
-27.  Blog Details
-=================================================================================*/
-
-.blog_details .comments {
-    position: relative;
-    display: inline-block;
-    margin-left: 45px;
-    font-size: 24px;
-    float: left;
-}
-
-.blog_details .comments span {
-    position: relative;
-    display: inline-block;
-    top: -3px;
-    margin-left: 15px;
-    font-weight: 500;
-}
-
-.blog_details .date {
-    font-weight: 500;
-    font-size: 14px;
-}
-
-blockquote {
-    padding-left: 30px;
-    font-style: italic;
-}
-
-.author_img {
-    float: left;
-}
-
-.author_img>img {
-    width: 70px;
-}
-
-.author_text {
-    padding-left: 30px;
-    display: table;
-}
-
-.author_info {
-    margin-bottom: 10px;
-}
-
-.author_name {
-    display: inline-block;
-    text-transform: inherit;
-    font-weight: 400;
-}
-
-.author_info span {
-    float: right;
-    font-style: italic;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.replied {
-    margin-left: 100px;
-}
-
-
 /*============================================================================
- 28.  Default Animation Css
- =============================================================================*/
-
+22.  Default Animation Css
+=============================================================================*/
 
 /* 
 Slider Animation
@@ -1777,7 +1320,6 @@ Slider Animation
     opacity: 1
 }
 
-
 /*  Nav Animation
 ======================================================*/
 
@@ -1819,16 +1361,12 @@ Slider Animation
     transform: scaleX(1);
 }
 
-
 /*  Default Animation
 ==========================================================================*/
 
 .default-portfolio-item .overlay-box,
 .table,
 .member:hover .data,
-.blog_img img,
-.blog_item:hover .blog_img img,
-.blog_item a:hover,
 .page-link,
 .category_sidebar ul li,
 .category_sidebar ul li a,
@@ -1862,8 +1400,7 @@ Slider Animation
 }
 
 .default-portfolio-item:hover .overlay-box,
-.member:hover .hover_overlay,
-.blog_img img {
+.member:hover .hover_overlay {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -o-transform: scale(1, 1);
@@ -1873,14 +1410,6 @@ Slider Animation
     visibility: visible;
 }
 
-.blog_item:hover .blog_img img {
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -o-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
 #pp-nav li .active span:before {
     -ms-transition: all 400ms linear;
     -moz-transition: all 400ms linear;
@@ -1888,7 +1417,6 @@ Slider Animation
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
 }
-
 
 /*  Transform
 ===========================================================================*/
@@ -1915,11 +1443,8 @@ Slider Animation
     -o-transform: translate(-50%, -50%);
 }
 
-
-
-
 /*============================================================================
-  29.   Color Settings
+23.   Color Settings
 ==============================================================================*/
 
 #page_wrapper {
@@ -2233,156 +1758,9 @@ label.radios {
     background-color: #1da8ab;
 }
 
-
-/*
-  Default Background css
-====================================================================*/
-
-.body_bg_1 {
-    background: url(../images/bg-image/bg-1.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_2 {
-    background: url(../images/bg-image/bg-2.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_3 {
-    background: url(../images/bg-image/bg-3.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_4 {
-    background: url(../images/bg-image/bg-4.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_5 {
-    background: url(../images/bg-image/bg-5.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_6 {
-    background: url(../images/bg-image/bg-6.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_7 {
-    background: url(../images/bg-image/bg-7.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_8 {
-    background: url(../images/bg-image/bg-8.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_9 {
-    background: url(../images/bg-image/bg-9.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.body_bg_10 {
-    background: url(../images/bg-image/bg-10.jpg) no-repeat fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-.pattern_1 {
-    background: url(../images/bg-image/pattern/1.png) repeat fixed;
-}
-
-.pattern_2 {
-    background: url(../images/bg-image/pattern/2.png) repeat fixed;
-}
-
-.pattern_3 {
-    background: url(../images/bg-image/pattern/3.png) repeat fixed;
-}
-
-.pattern_4 {
-    background: url(../images/bg-image/pattern/4.png) repeat fixed;
-}
-
-.pattern_5 {
-    background: url(../images/bg-image/pattern/5.png) repeat fixed;
-}
-
-.box_bg_style .pattern1 {
-    background: url(../images/bg-image/pattern/1.png) no-repeat center;
-}
-
-.box_bg_style .pattern2 {
-    background: url(../images/bg-image/pattern/2.png) no-repeat center;
-}
-
-.box_bg_style .pattern3 {
-    background: url(../images/bg-image/pattern/3.png) no-repeat center;
-}
-
-.box_bg_style .pattern4 {
-    background: url(../images/bg-image/pattern/4.png) no-repeat center;
-}
-
-.box_bg_style .pattern5 {
-    background: url(../images/bg-image/pattern/5.png) no-repeat center;
-}
-
-.box_bg_style .body_image1 {
-    background: url(../images/bg-image/bg-1.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image2 {
-    background: url(../images/bg-image/bg-2.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image3 {
-    background: url(../images/bg-image/bg-3.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image4 {
-    background: url(../images/bg-image/bg-4.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image5 {
-    background: url(../images/bg-image/bg-5.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image6 {
-    background: url(../images/bg-image/bg-6.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image7 {
-    background: url(../images/bg-image/bg-7.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image8 {
-    background: url(../images/bg-image/bg-8.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image9 {
-    background: url(../images/bg-image/bg-9.jpg) no-repeat center / cover;
-}
-
-.box_bg_style .body_image10 {
-    background: url(../images/bg-image/bg-10.jpg) no-repeat center / cover;
-}
-
-
 /*=================================================================================
- 30.   Responsive Media Queries Css
+ 24.   Responsive Media Queries Css
  ==================================================================================*/
-
 
 /*
 // Extra large devices (large desktops, 1200px and up)

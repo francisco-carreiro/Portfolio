@@ -1,16 +1,11 @@
 //=====================================================================================
-
 //  01.   Preloader For Hide loader
 //  02.   Scroll Top
 //  03.   Navbar scrolling navbar Fixed
 //  04.   Services Slider
-//  05.   Team Slider
-//  06.   Testimonial Slider
-//  07.   Fact Counter
-//  08.   LightBox / Fancybox
-//  09.   Gallery With Filters List
-//  10.   Contact Form Validation
-
+//  05.   Skill Counter
+//  06.   LightBox / Fancybox
+//  07.   Gallery With Filters List
 //=====================================================================================
 
 (function ($) {
@@ -108,67 +103,7 @@
   });
 
   //=====================================================================================
-  //  05.   Team Slider
-  //=====================================================================================
-
-  $('.team_member').owlCarousel({
-    loop: true,
-    autoplay: false,
-    autoplayTimeout: 5000,
-    margin: 30,
-    nav: true,
-    dots: false,
-    navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-    responsive: {
-
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1024: {
-        items: 3
-      },
-      1200: {
-        items: 3
-      }
-    }
-
-  });
-
-  //=====================================================================================
-  //  06.   Testimonial Slider
-  //=====================================================================================
-
-  $('.testimonial_item').owlCarousel({
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    margin: 0,
-    nav: true,
-    dots: false,
-    navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-    responsive: {
-
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1024: {
-        items: 2
-      },
-      1200: {
-        items: 2
-      }
-    }
-
-  });
-
-  //=====================================================================================
-  // 07.    Fact Counter
+  // 05.   Skill Counter
   //=====================================================================================
 
   function factCounter() {
@@ -225,7 +160,7 @@
   });
 
   //=====================================================================================
-  //  08.   LightBox / Fancybox
+  //  06.   LightBox / Fancybox
   //=====================================================================================
 
   $('[data-fancybox="gallery"]').fancybox({
@@ -235,71 +170,13 @@
   });
 
   //=====================================================================================
-  //  09.   Gallery With Filters List
+  //  07.   Gallery With Filters List
   //=====================================================================================
 
   if ($('.filter-list').length) {
     $('.filter-list').mixItUp({});
   }
 
-  //=========================================================================================
-  //  10.   Contact Form Validation
-  //=========================================================================================
 
-  if ($contact.length) {
-    $contact.validate({ //#contact-form contact form id
-      rules: {
-        name: {
-          required: true // Field name here
-        },
-        email: {
-          required: true, // Field name here
-          email: true
-        },
-        subject: {
-          required: true
-        },
-        message: {
-          required: true
-        }
-      },
-
-      messages: {
-        name: "Please enter your First Name", //Write here your error message that you want to show in contact form
-        email: "Please enter valid Email", //Write here your error message that you want to show in contact form
-        subject: "Please enter your Subject", //Write here your error message that you want to show in contact form
-        message: "Please write your Message" //Write here your error message that you want to show in contact form
-      },
-
-      submitHandler: function (form) {
-        $('#send').attr({
-          'disabled': 'true',
-          'value': 'Sending...'
-        });
-        $.ajax({
-          type: "POST",
-          url: "email.php",
-          data: $(form).serialize(),
-          success: function () {
-            $('#send').removeAttr('disabled').attr('value', 'Send');
-            $("#success").slideDown("slow");
-            setTimeout(function () {
-              $("#success").slideUp("slow");
-            }, 5000);
-            form.reset();
-          },
-          error: function () {
-            $('#send').removeAttr('disabled').attr('value', 'Send');
-            $("#error").slideDown("slow");
-            setTimeout(function () {
-              $("#error").slideUp("slow");
-            }, 5000);
-          }
-        });
-        return false; // required to block normal submit since you used ajax
-      }
-
-    });
-  }
 
 })(jQuery);
