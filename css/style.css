@@ -277,8 +277,8 @@ a.active {
 }
 
 .social_media_2 ul li a,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next,
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next,
 .contact_icon,
 .contact_icon {
     width: 50px;
@@ -611,93 +611,12 @@ ul#menu li a {
 }
 
 /*===============================================================================
-10.   Slider 
-=================================================================================*/
-
-.pattan {
-    position: relative;
-}
-
-.pattan:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url(../images/pattan.png);
-    background-color: transparent;
-    z-index: 9;
-    width: 40%;
-    height: auto;
-}
-
-.carousel-caption {
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    z-index: 999
-}
-
-.carousel-caption p {
-    width: 60%;
-}
-
-#slider img {
-    width: 100%;
-    height: 100vh;
-    max-height: 100%;
-    object-fit: cover;
-}
-
-.carousel-caption h1 {
-    position: relative;
-    z-index: 99
-}
-
-
-/* Slider Liner Css Start */
-
-.line-container {
-    max-width: 1224px;
-    width: 92%;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 5;
-}
-
-.liner {
-    position: relative;
-}
-
-.liner:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    width: 1px;
-    height: 100vh;
-    min-height: 100%;
-}
-
-/*===============================================================================
 11.		About
 =================================================================================*/
 
 .personal_info ul li {
     border-bottom: 1px solid;
     padding: 10px 0px;
-}
-
-.about2 img {
-    width: 100%;
-    height: 100vh;
-    max-height: 100%;
 }
 
 .personal_info ul li {
@@ -788,17 +707,6 @@ ul#menu li a {
 14.   Services One
 ====================================================================================*/
 
-.service_one {
-    border-radius: 20px;
-    border: 2px solid;
-    border-color: transparent;
-    margin: 10px 20px;
-}
-
-.service_one:hover {
-    border: 2px solid;
-}
-
 .srvicon {
     width: 70px;
     height: 70px;
@@ -821,13 +729,11 @@ ul#menu li a {
     margin: 0 auto;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
+.owl-nav button.owl-prev {
     margin-right: 10px;
 }
 
-.owl-carousel .owl-nav.disabled {
-    display: block !important;
-}
+
 
 /*==================================================================================
 15.   Services Two
@@ -1276,51 +1182,6 @@ nav ul li.page-item {
 22.  Default Animation Css
 =============================================================================*/
 
-/* 
-Slider Animation
-======================================================= */
-
-.carousel-caption h1 {
-    animation-delay: 0.2s;
-    animation-duration: 1s;
-    opacity: 0
-}
-
-.carousel-caption p {
-    animation-delay: 0.6s;
-    animation-duration: 1s;
-    opacity: 0;
-}
-
-.carousel-caption .btn {
-    animation-delay: 1.3s;
-    animation-duration: 1s;
-    opacity: 0;
-}
-
-.carousel-item.active .carousel-caption p,
-.carousel-item.active .carousel-caption h1,
-.member:hover .data {
-    animation-name: fadeInUp;
-}
-
-.carousel-item.active .carousel-caption p,
-.carousel-item.active .carousel-caption h1 {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    opacity: 1
-}
-
-.carousel-item.active .carousel-caption .btn {
-    animation-name: fadeInUp;
-}
-
-.carousel-item.active .carousel-caption .btn {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    opacity: 1
-}
-
 /*  Nav Animation
 ======================================================*/
 
@@ -1367,7 +1228,6 @@ Slider Animation
 
 .default-portfolio-item .overlay-box,
 .table,
-.member:hover .data,
 .page-link,
 .category_sidebar ul li,
 .category_sidebar ul li a,
@@ -1382,8 +1242,7 @@ Slider Animation
     transition: all 400ms ease-out;
 }
 
-.default-portfolio-item .overlay-box .arrow span i.fa:hover,
-.member:hover .hover_overlay {
+.default-portfolio-item .overlay-box .arrow span i.fa:hover {
     transition: all 0.6s ease 0s;
     -webkit-transition: all 0.6s ease 0s;
     -moz-transition: all 0.6s ease 0s;
@@ -1391,8 +1250,7 @@ Slider Animation
     -ms-transition: all 0.6s ease 0s;
 }
 
-.default-portfolio-item .overlay-box,
-.member .hover_overlay {
+.default-portfolio-item .overlay-box {
     -webkit-transform: scale(0, 0);
     -ms-transform: scale(0, 0);
     -moz-transform: scale(0, 0);
@@ -1400,8 +1258,7 @@ Slider Animation
     transform: scale(0, 0);
 }
 
-.default-portfolio-item:hover .overlay-box,
-.member:hover .hover_overlay {
+.default-portfolio-item:hover .overlay-box {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -o-transform: scale(1, 1);
@@ -1426,8 +1283,7 @@ Slider Animation
 .line_double::after,
 .line_double::before,
 .line_double::after,
-.profile_img,
-.carousel-caption {
+.profile_img {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1435,7 +1291,6 @@ Slider Animation
     -o-transform: translateY(-50%);
 }
 
-.personal_video a,
 .lds-spinner {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -1770,10 +1625,6 @@ label.radios {
 @media (min-width: 1200px) {
 
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 30px;
@@ -1824,22 +1675,8 @@ label.radios {
         line-height: 18px;
     }
 
-    .member .hover_overlay {
-        padding: 5px;
-    }
-
     .border {
         padding: 10px;
-    }
-
-    .member .hover_overlay h4 {
-        margin-bottom: 0px;
-    }
-
-    .member .hover_overlay strong {
-        margin-bottom: 0px;
-        font-size: 14px;
-        font-weight: 500
     }
 
     .border p {
@@ -1848,57 +1685,10 @@ label.radios {
         line-height: 16px;
     }
 
-    .hover_overlay .social_media ul li a {
-        width: 40px;
-        height: 40px;
-        line-height: 32px;
-    }
-
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 70px;
-    }
-
-    .member_feedback h5 {
-        margin-bottom: 15px;
-    }
-
-    .service_one {
-        padding: 30px 15px;
-    }
-
-    .admin span,
-    .date {
-        font-size: 14px;
-    }
-
-    .admin {
-        padding: 0px;
-    }
-
-    .date {
-        line-height: 38px;
-    }
-
-    /* Blog */
-    .social_media ul li a {
-        width: 30px;
-        height: 30px;
-        line-height: 23px;
-        text-align: center;
-        border-radius: 50%;
-        border: 3px solid;
-        font-size: 12px;
-    }
-
-    .blog_sidebar .widget {
-        padding: 20px 15px;
-        margin-bottom: 30px;
     }
 
     .category_sidebar ul li,
@@ -1921,10 +1711,6 @@ label.radios {
 
     .recent_post_content span {
         font-size: 13px;
-    }
-
-    .blog_details .comments {
-        margin-top: -4px;
     }
 
     .share_post h4 {
@@ -1958,24 +1744,9 @@ label.radios {
         font-size: 15px;
     }
 
-    .blog_item {
-        margin-bottom: 30px;
-    }
-
-    .carousel-caption p {
-        width: 100%;
-    }
-
     /*  horizontal and vertical version responsive css */
-    .video_content {
-        padding: 0px;
-    }
 
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 70px;
@@ -2001,25 +1772,8 @@ label.radios {
         padding: 30px 30px 0px;
     }
 
-    .hover_overlay .social_media ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 40px;
-    }
-
     .contact_text span {
         font-size: 13px;
-    }
-
-    .company p,
-    .company,
-    .video_content {
-        padding-bottom: 30px;
-    }
-
-    .company h1,
-    .company p {
-        padding-top: 30px;
     }
 
     .filters ul li {
@@ -2030,18 +1784,7 @@ label.radios {
         margin-bottom: 30px;
     }
 
-    /* Blog */
-    .social_media ul li a {
-        width: 30px;
-        height: 30px;
-        line-height: 23px;
-        text-align: center;
-        border-radius: 50%;
-        border: 3px solid;
-        font-size: 12px;
-    }
-
-    .blog_sidebar .widget {
+    .widget {
         padding: 20px 10px;
         margin-bottom: 30px;
     }
@@ -2068,10 +1811,6 @@ label.radios {
         font-size: 13px;
     }
 
-    .blog_details .date {
-        line-height: 40px;
-    }
-
     .replied {
         margin-left: 40px;
     }
@@ -2091,8 +1830,7 @@ label.radios {
         width: 100%;
     }
 
-    .counter,
-    .blog_item {
+    .counter {
         margin-bottom: 30px;
     }
 
@@ -2121,24 +1859,6 @@ label.radios {
         margin-bottom: 20px;
     }
 
-    .social_media {
-        margin-top: 20px;
-    }
-
-    .social_media ul li a {
-        width: 30px;
-        height: 30px;
-        line-height: 28px;
-        text-align: center;
-        border-radius: 50%;
-        border: 2px solid;
-        font-size: 11px;
-    }
-
-    .carousel-caption {
-        top: 40%;
-    }
-
     .contact_massage {
         top: 20px;
         width: 50px;
@@ -2148,16 +1868,6 @@ label.radios {
     .contact_massage a {
         font-size: 20px;
         line-height: 50px;
-    }
-
-    .carousel-caption p {
-        font-size: 14px;
-        line-height: 22px;
-        width: 100%;
-    }
-
-    .carousel-caption {
-        left: 15%;
     }
 
     h1 {
@@ -2189,14 +1899,7 @@ label.radios {
         padding: 15px 10px;
     }
 
-    .about_myself,
-    .education_experience,
-    .video_content,
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 70px;
@@ -2204,24 +1907,6 @@ label.radios {
 
     .main_title p {
         width: 90%;
-    }
-
-    .education_experience .company span {
-        margin-bottom: 15px;
-        display: inline-block;
-    }
-
-    .education_experience .company h1 {
-        margin-top: 15px;
-    }
-
-    .company,
-    .company p {
-        padding-bottom: 15px;
-    }
-
-    .video_content {
-        padding-bottom: 30px;
     }
 
     .hover_overlay .border h4 {
@@ -2272,8 +1957,7 @@ label.radios {
         line-height: 34px;
     }
 
-    .counter,
-    .blog_item {
+    .counter {
         margin-bottom: 30px;
     }
 
@@ -2314,10 +1998,6 @@ label.radios {
         padding: 30px 10px;
     }
 
-    .carousel-caption {
-        left: 30%;
-    }
-
     h1 {
         font-size: 20px;
         line-height: 24px;
@@ -2338,26 +2018,8 @@ label.radios {
         font-size: 12px;
     }
 
-    .carousel-caption {
-        top: 43%;
-    }
 
-    .carousel-caption p {
-        width: 100%;
-    }
-
-    .pattan:after {
-        width: 50%;
-    }
-
-    .about_myself,
-    .education_experience,
-    .video_content,
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 70px;
@@ -2365,30 +2027,6 @@ label.radios {
 
     .main_title p {
         width: 100%;
-    }
-
-    .education_experience .company span {
-        margin-bottom: 15px;
-        display: inline-block;
-    }
-
-    .education_experience .company h1,
-    .company p {
-        margin-top: 15px;
-    }
-
-    .company,
-    .company p {
-        padding-bottom: 15px;
-    }
-
-    .video_content {
-        padding-bottom: 30px;
-    }
-
-    .service_one {
-        padding: 30px 10px;
-        margin: 0px;
     }
 
     .filters ul li {
@@ -2399,18 +2037,6 @@ label.radios {
         font-size: 12px;
     }
 
-    .member .hover_overlay {
-        padding: 0px;
-    }
-
-    .member .hover_overlay h4 {
-        margin-bottom: 0px;
-    }
-
-    .member .hover_overlay .border strong {
-        margin-bottom: 5px;
-    }
-
     .border {
         padding: 12px;
     }
@@ -2419,20 +2045,6 @@ label.radios {
         margin-bottom: 15px;
         font-size: 13px;
         line-height: 18px;
-    }
-
-    .hover_overlay .social_media ul li a {
-        width: 40px;
-        height: 40px;
-        line-height: 32px;
-    }
-
-    .hover_overlay .social_media {
-        padding-bottom: 3px;
-    }
-
-    .member_feedback {
-        margin: 60px 0px 10px 0px;
     }
 
     .footer-widget .main_title {
@@ -2473,14 +2085,7 @@ label.radios {
         line-height: 22px;
     }
 
-    .about_myself,
-    .education_experience,
-    .video_content,
     .services,
-    .portfolio2,
-    .pricing,
-    .team,
-    .testimonial,
     .contact,
     .footer_bottom {
         margin-left: 55px;
@@ -2500,58 +2105,18 @@ label.radios {
         font-size: 14px;
     }
 
-    .admin {
-        padding: 0px;
-    }
-
-    .date {
-        font-size: 13px;
-        line-height: 40px;
-    }
-
     .social_media_2 {
         margin-bottom: 30px;
     }
 
     /*  horizontal and vertical version responsive css */
-    .carousel-caption p {
-        font-size: 13px;
-        line-height: 18px;
-    }
 
     .sidebar img {
         margin-bottom: 25px;
     }
 
-    .social_media ul li a {
-        width: 40px;
-        height: 40px;
-        line-height: 32px;
-        text-align: center;
-        border-radius: 50%;
-        border: 5px solid;
-    }
-
-    #education .nav-item {
+    .nav-item {
         margin: 0px 10px 10px 0px;
-    }
-
-    .social_media {
-        margin-top: 25px;
-    }
-
-    .service_one {
-        margin: 15px 10px;
-    }
-
-    .member .data h4,
-    .member .data strong {
-        font-size: 14px;
-        padding: 5px 15px;
-    }
-
-    .hover_overlay .social_media {
-        display: none;
     }
 
     .hover_overlay p {
