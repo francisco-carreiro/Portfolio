@@ -71,6 +71,11 @@ img {
     height: auto;
 }
 
+.nav-logo {
+    width: 25%;
+    height: auto;
+}
+
 ul {
     margin: 0;
     padding: 0;
