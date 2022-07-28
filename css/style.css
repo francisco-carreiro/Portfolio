@@ -1719,7 +1719,7 @@ label.radios {
 
 @media (max-width: 991px) {
   .main_nav {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #06283d !important;
   }
 
   .mainbanner_content p {
@@ -1845,11 +1845,18 @@ label.radios {
   }
 
   .main_nav {
-    background-color: rgba(255, 255, 255);
+    background-color: #06283d !important;
   }
 
   .sidebar img {
     margin-bottom: 20px;
+  }
+
+  .navbar-brand {
+    text-align: left;
+    top: 0px;
+    position: absolute;
+    z-index: -2;
   }
 
   .contact_massage {
@@ -1983,7 +1990,14 @@ label.radios {
   }
 
   .main_nav {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #06283d !important;
+  }
+
+  .navbar-brand {
+    text-align: left;
+    top: 0px;
+    position: absolute;
+    z-index: -2;
   }
 
   .sidebar {
@@ -2081,7 +2095,7 @@ label.radios {
   }
 
   .main_nav {
-    background-color: rgba(255, 255, 255, 0.05) !important;
+    background-color: #06283d !important;
   }
 
   .about_myskill h2 {
