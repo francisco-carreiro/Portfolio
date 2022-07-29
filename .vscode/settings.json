@@ -1,16 +1,17 @@
 {
-    "cSpell.words": [
-        "Açoriano",
-        "Carreiro",
-        "Código",
-        "Corel",
-        "fancybox",
-        "Graghic",
-        "graphicdesign",
-        "Machado",
-        "Onix",
-        "Ourivesaria",
-        "Photoshop",
-        "playsinline"
-    ]
+  "cSpell.words": [
+    "Açoriano",
+    "Carreiro",
+    "Código",
+    "Corel",
+    "fancybox",
+    "Graghic",
+    "graphicdesign",
+    "Machado",
+    "Onix",
+    "Ourivesaria",
+    "Photoshop",
+    "playsinline"
+  ],
+  "cSpell.ignoreWords": ["bg_deepblue"]
 }

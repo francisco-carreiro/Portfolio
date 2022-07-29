@@ -12,19 +12,7 @@ others: #DFF6FF/#1363DF
 }
 
 .color_primary {
-  color: #1e283c;
-}
-
-.color_secondary {
   color: #dff6ff;
-}
-
-.color_gray {
-  color: #757575;
-}
-
-.color_lightgray {
-  color: #e1e1e1;
 }
 
 .color_white {
@@ -34,55 +22,30 @@ others: #DFF6FF/#1363DF
 /*	Background Color
 ===================================================================*/
 
-.bg_default {
-  background-color: #1363df;
+.bg_services {
+  background-color: #dff6ff5e;
 }
 
-.bg_primary {
-  background-color: #1e283c;
-}
-
-.bg_secondary {
-  background-color: #f7f7f7;
-}
-
-.bg_dark {
-  background-color: #000;
-}
-
-.bg_gray {
-  background-color: #7575757e;
-}
-
-.bg_black {
+.bg_blue {
   background-color: #0a3c5c;
 }
 
-.bg_deepblack {
+.bg_deepblue {
   background-color: #06283d;
-}
-
-.bg_white {
-  background-color: #fff;
 }
 
 /*	btn color
 ===================================================================*/
 
 .btn-default {
-  background-color: #47b5ff;
+  background-color: #1e283c;
   color: #fff;
 }
 
 .btn-default:hover,
 .btn-default.active {
-  background-color: #1e283c;
+  background-color: #47b5ff;
   color: #fff;
-}
-
-.social_media ul li a:hover {
-  color: #fff;
-  filter: brightness(115%);
 }
 
 .btn_info {
@@ -176,7 +139,7 @@ ul#menu li a:hover,
 .page-link,
 .recent_post a,
 .tags ul li a {
-  color: #1e283c;
+  color: #ffffff;
 }
 
 /*	White Color Class & ID
@@ -187,14 +150,13 @@ ul#menu li a:hover,
 .default-portfolio-item .overlay-box span,
 .tag,
 .sidebar span,
-.social_media ul li a,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .table:hover h4,
 .table:hover,
 .table:hover h5,
 .contact_icon,
-.bg_black .form label,
+.bg_blue .form label,
 .page-item.active .page-link,
 .page-link:hover,
 .tags ul li a:hover,
@@ -217,7 +179,6 @@ ul#menu li a:hover,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .lds-spinner div,
-.social_media ul li a,
 #pp-nav li .active span,
 .pp-slidesNav .active span,
 .carousel-indicators .active,
@@ -241,8 +202,7 @@ ul#menu li a:hover,
 .ball-scale-multiple > div,
 .preloader,
 .sidenav,
-.table:hover,
-.admin {
+.table:hover {
   background-color: #0000005e;
 }
 
@@ -267,7 +227,7 @@ ul#menu li a:hover,
 .profile_img .iconround:before,
 #pp-nav span,
 .navbar-light .navbar-toggler,
-.blog_details .admin {
+.blog_details {
   background-color: rgb(255, 255, 255);
 }
 
@@ -289,7 +249,6 @@ ul#menu li a:hover,
   border-bottom-color: #1363df;
 }
 
-.social_media ul li a,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
 .srvicon,
