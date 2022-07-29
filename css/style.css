@@ -929,12 +929,6 @@ ul#menu li a {
   line-height: 34px;
 }
 
-.contact_message .error {
-  font-weight: 500;
-  font-size: 13px;
-  margin-bottom: 0;
-}
-
 #success,
 #error {
   display: none;
@@ -943,12 +937,6 @@ ul#menu li a {
 
 #success {
   color: #31bb15;
-}
-
-.contact_message .error {
-  font-weight: 300;
-  font-size: 13px;
-  margin-bottom: 0;
 }
 
 .contact_info ul li .contact_icon {
@@ -1153,20 +1141,7 @@ nav ul li.page-item {
   margin-right: 7px;
 }
 
-.page-link {
-  border: none;
-  border-radius: 50%;
-  line-height: 31px;
-  width: 45px;
-  height: 45px;
-  font-size: 16px;
-  text-align: center;
-}
 
-.page-item:first-child .page-link,
-.page-item:last-child .page-link {
-  border-radius: 50%;
-}
 
 /*============================================================================
 22.  Default Animation Css
@@ -1218,9 +1193,6 @@ nav ul li.page-item {
 
 .default-portfolio-item .overlay-box,
 .table,
-.page-link,
-.archives ul li a,
-.tags ul li a,
 .btn_info {
   -webkit-transition: all 400ms ease-out;
   -ms-transition: all 400ms ease-out;
@@ -1673,10 +1645,6 @@ label.radios {
     margin-left: 70px;
   }
 
-  .archives ul li {
-    padding: 5px 0px;
-  }
-
   .share_post h4 {
     line-height: 31px;
   }
@@ -1752,10 +1720,6 @@ label.radios {
     margin-bottom: 30px;
   }
 
-  .archives ul li {
-    padding: 5px 0px;
-  }
-
   .replied {
     margin-left: 40px;
   }
@@ -1784,10 +1748,6 @@ label.radios {
 
   .skill-progress {
     margin-top: 20px;
-  }
-
-  .contact_message {
-    margin-top: 50px;
   }
 
   /*  horizontal and vertical version responsive css */
@@ -1878,10 +1838,6 @@ label.radios {
 
   .footer-widget .main_title {
     margin-top: 30px;
-  }
-
-  .counter-box {
-    margin-top: 20px;
   }
 
   .pagination {
