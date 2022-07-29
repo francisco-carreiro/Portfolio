@@ -374,48 +374,6 @@ a.active {
   top: 50%;
 }
 
-#pp-nav {
-  z-index: 11;
-}
-
-#pp-nav span,
-.pp-slidesNav span {
-  top: 2px;
-  left: 2px;
-  width: 10px;
-  height: 10px;
-  border: 2px solid;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-}
-
-#pp-nav li .active span:before {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: -4px;
-  left: -4px;
-  border-radius: 100%;
-  border: 1px solid #fff;
-}
-
-.widget_title {
-  position: relative;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.widget_title:before {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0px;
-  width: 50px;
-  height: 2px;
-}
-
 /*====================================================================
 06.   background Image
 ======================================================================*/
@@ -634,6 +592,8 @@ ul#menu li a {
   position: relative;
   width: 75%;
   margin-top: 25px;
+  border: 5px inset #47b5ff;
+  border-radius: 50%;
 }
 
 /*===============================================================================
@@ -698,40 +658,10 @@ ul#menu li a {
 }
 
 /*==================================================================================
-14.   Services One
-====================================================================================*/
-
-.srvicon {
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  border-radius: 50%;
-  border: 5px solid;
-  margin-bottom: 15px;
-}
-
-.srvicon span:before {
-  font-size: 32px;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 62px;
-}
-
-.owl-nav {
-  margin-top: 50px !important;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.owl-nav button.owl-prev {
-  margin-right: 10px;
-}
-
-/*==================================================================================
 15.   Services Two
 ====================================================================================*/
 
-.service_two p {
+.service_one p {
   padding: 30px 20px;
 }
 
@@ -762,7 +692,7 @@ ul#menu li a {
   padding-right: 20px;
 }
 
-.service_two .srv_icon {
+.service_one .srv_icon {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -771,16 +701,16 @@ ul#menu li a {
   margin: 0 auto;
 }
 
-.service_two .srv_icon span:before {
+.service_one .srv_icon span:before {
   font-size: 42px;
   line-height: 100px;
 }
 
-.service_two:hover .srv_item_number strong {
+.service_one:hover .srv_item_number strong {
   top: 0;
 }
 
-.service_two:hover .srv_icon {
+.service_one:hover .srv_icon {
   transform: rotateY(180deg);
 }
 
@@ -887,60 +817,6 @@ ul#menu li a {
 .contact_text h6 {
   font-weight: 600;
   letter-spacing: 1px;
-}
-
-.form-control {
-  padding: 5px 15px;
-  font-size: 14px;
-  height: calc(30px + 15px);
-  margin-bottom: 30px;
-  border-radius: 0px;
-  border: none;
-  border-bottom: 1px solid;
-}
-
-.form-control:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-.error-handel {
-  position: relative;
-}
-
-.error-handel:before {
-  bottom: -30px;
-  display: table;
-  height: 35px;
-  left: 15px;
-  margin: auto 0;
-  position: absolute;
-  text-align: left;
-  width: 100%;
-}
-
-#success,
-#error {
-  display: none;
-  line-height: 34px;
-}
-
-#success,
-#error {
-  display: none;
-  line-height: 34px;
-}
-
-#success {
-  color: #31bb15;
-}
-
-.contact_text {
-  display: table-cell;
-}
-
-.subscribe .form-control {
-  border-bottom: 0px;
 }
 
 /*===============================================================================
@@ -1215,14 +1091,6 @@ nav ul li.page-item {
   transform: scale(1, 1);
   opacity: 1;
   visibility: visible;
-}
-
-#pp-nav li .active span:before {
-  -ms-transition: all 400ms linear;
-  -moz-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  -webkit-transition: all 400ms linear;
-  transition: all 400ms linear;
 }
 
 /*  Transform

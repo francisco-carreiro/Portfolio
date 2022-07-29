@@ -95,8 +95,7 @@ ul#menu li a:hover {
 
 .counter span:before,
 .default-portfolio-item .overlay-box span,
-.tag,
-.bg_blue .form label {
+.tag {
   color: #fff;
 }
 
@@ -106,28 +105,22 @@ ul#menu li a:hover {
 .line_double::before,
 .line_double::after,
 .progress-bar,
-.service_two .srv_icon,
+.service_one .srv_icon,
 .lds-spinner div,
-#pp-nav li .active span,
-.pp-slidesNav .active span,
-.carousel-indicators .active,
-.widget_title:before,
 .progress-bar {
   background-color: #47b5ff !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #1363df;
+  background-color: #47b5ff;
 }
 
 /*	Background Color Primary Class & ID
 ===================================================================*/
 
 #scroll,
-.ball-scale-multiple > div,
-.preloader,
 .sidenav {
-  background-color: #0000005e;
+  background-color: #ffffff5d;
 }
 
 /*	Background Color Gray Class & ID
@@ -135,15 +128,6 @@ ul#menu li a:hover {
 
 .progress {
   background-color: #dff6ff;
-}
-
-/*	Background Color White Class & ID
-===================================================================*/
-
-.profile_img .iconround:before,
-#pp-nav span,
-.blog_details {
-  background-color: rgb(255, 255, 255);
 }
 
 /*	Border Color Default
@@ -155,10 +139,6 @@ ul#menu li a:hover {
 
 /*	Border Color Primary
 ===================================================================*/
-
-.profile_img .iconround:before {
-  border-color: #000000;
-}
 
 #scroll span {
   border-bottom-color: #1363df;
@@ -191,17 +171,12 @@ ul#menu li a:hover {
 /*	16.		Border color Light Gray
 ===================================================================*/
 
-.personal_info ul li,
-.form-control {
+.personal_info ul li {
   border-color: #e1e1e1;
 }
 
 .border {
   border-color: #1363df !important;
-}
-
-.form-control:focus {
-  border-color: #3c1e1e;
 }
 
 .main_nav {
@@ -212,7 +187,6 @@ ul#menu li a:hover {
 }
 
 .service_one,
-.service_two,
 .member_feedback {
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
