@@ -497,12 +497,6 @@ header {
   z-index: 100;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 32px;
-}
-
 .navbar .navbar-nav .nav-item {
   padding: 0px 15px;
 }
@@ -965,10 +959,6 @@ ul#menu li a {
   display: table-cell;
 }
 
-.twite i {
-  padding-right: 15px;
-}
-
 .subscribe .form-control {
   border-bottom: 0px;
 }
@@ -1229,9 +1219,6 @@ nav ul li.page-item {
 .default-portfolio-item .overlay-box,
 .table,
 .page-link,
-.category_sidebar ul li,
-.category_sidebar ul li a,
-.recent_post a,
 .archives ul li a,
 .tags ul li a,
 .btn_info {
@@ -1686,26 +1673,8 @@ label.radios {
     margin-left: 70px;
   }
 
-  .category_sidebar ul li,
   .archives ul li {
     padding: 5px 0px;
-  }
-
-  .recent_post .post_img {
-    width: 55px;
-  }
-
-  .recent_post_content h6 {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .recent_post ul li {
-    margin-bottom: 10px;
-  }
-
-  .recent_post_content span {
-    font-size: 13px;
   }
 
   .share_post h4 {
@@ -1783,26 +1752,8 @@ label.radios {
     margin-bottom: 30px;
   }
 
-  .category_sidebar ul li,
   .archives ul li {
     padding: 5px 0px;
-  }
-
-  .recent_post .post_img {
-    width: 55px;
-  }
-
-  .recent_post_content h6 {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .recent_post ul li {
-    margin-bottom: 10px;
-  }
-
-  .recent_post_content span {
-    font-size: 13px;
   }
 
   .replied {
@@ -1935,10 +1886,6 @@ label.radios {
 
   .pagination {
     margin-bottom: 60px;
-  }
-
-  .recent_post_content span {
-    font-size: 13px;
   }
 
   .reply_form {

@@ -38,7 +38,7 @@ others: #DFF6FF/#1363DF
 ===================================================================*/
 
 .btn-default {
-  background-color: #1e283c;
+  background-color: #0a3c5c;
   color: #fff;
 }
 
@@ -48,56 +48,19 @@ others: #DFF6FF/#1363DF
   color: #fff;
 }
 
-.btn_info {
-  color: #47b5ff;
-}
-
-.btn_info:hover {
-  color: #1e283c;
-}
-
 /*	Navbar Color
 ===================================================================*/
 
 .nav-scroll {
-  background: #fff !important;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
-}
-
-.navbar-light .navbar-brand {
-  color: #fff;
-}
-
-.nav-scroll .navbar-light .navbar-brand {
-  color: #1e283c;
 }
 
 .navbar-nav .nav-item .nav-link:before {
   background-color: #1363df;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.nav-scroll .navbar-light .navbar-nav .nav-link.active,
-ul#menu li.active a,
-.contact_massage a {
-  color: #47b5ff;
-}
-
-.nav-scroll .navbar-light .navbar-nav .nav-link {
-  color: #1e283c;
-}
-
 .dark_nav.nav-scroll {
   background-color: #06283d !important;
-}
-
-.dark_nav.nav-scroll .navbar-light .navbar-nav .nav-link,
-.sidenav a {
-  color: #e1e1e1;
 }
 
 /*	Hover color
@@ -108,36 +71,25 @@ ul#menu li.active a,
 }
 
 .white_hover a i:hover {
-  color: #47b5ff;
+  color: #1363df;
 }
 
 /*	Default Color Class & ID
 ===================================================================*/
 
-.primary_link a:hover,
 .filter-tabs li.filter.active,
-.comments,
-.blog_item a:hover,
-.navbar-light .navbar-nav .nav-link:hover,
 .social_media_2 ul li a:hover,
 ul#menu li a:hover,
-.twite i,
-.twite a:hover,
-.category_sidebar ul li:hover,
-.white_link a:hover,
-.recent_post a:hover,
 .archives ul li a:hover {
-  color: #47b5ff;
+  color: #1363df;
 }
 
 /*	Primary Color Class & ID
 ===================================================================*/
 
-.primary_link a,
 .social_media_2 ul li a,
 .contact_message .error,
 .page-link,
-.recent_post a,
 .tags ul li a {
   color: #ffffff;
 }
@@ -159,8 +111,7 @@ ul#menu li a:hover,
 .bg_blue .form label,
 .page-item.active .page-link,
 .page-link:hover,
-.tags ul li a:hover,
-.white_link a {
+.tags ul li a:hover {
   color: #fff;
 }
 
@@ -226,7 +177,6 @@ ul#menu li a:hover,
 
 .profile_img .iconround:before,
 #pp-nav span,
-.navbar-light .navbar-toggler,
 .blog_details {
   background-color: rgb(255, 255, 255);
 }
@@ -303,7 +253,6 @@ ul#menu li a:hover,
 .service_one,
 .service_two,
 .member_feedback,
-.blog_item,
 .table {
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
