@@ -96,19 +96,7 @@ ul#menu li a:hover {
 .counter span:before,
 .default-portfolio-item .overlay-box span,
 .tag,
-.sidebar span,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next,
-.table:hover h4,
-.table:hover,
-.table:hover h5,
-.contact_icon,
 .bg_blue .form label {
-  color: #fff;
-}
-
-.owl-carousel .owl-nav button.owl-prev span,
-.owl-carousel .owl-nav button.owl-next span {
   color: #fff;
 }
 
@@ -119,13 +107,10 @@ ul#menu li a:hover {
 .line_double::after,
 .progress-bar,
 .service_two .srv_icon,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next,
 .lds-spinner div,
 #pp-nav li .active span,
 .pp-slidesNav .active span,
 .carousel-indicators .active,
-.contact_icon,
 .widget_title:before,
 .progress-bar {
   background-color: #47b5ff !important;
@@ -141,8 +126,7 @@ ul#menu li a:hover {
 #scroll,
 .ball-scale-multiple > div,
 .preloader,
-.sidenav,
-.table:hover {
+.sidenav {
   background-color: #0000005e;
 }
 
@@ -180,10 +164,7 @@ ul#menu li a:hover {
   border-bottom-color: #1363df;
 }
 
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next,
-.srvicon,
-.contact_icon {
+.srvicon {
   border-color: rgba(255, 255, 255, 0.3) !important;
 }
 
@@ -211,7 +192,6 @@ ul#menu li a:hover {
 ===================================================================*/
 
 .personal_info ul li,
-.table ul li,
 .form-control {
   border-color: #e1e1e1;
 }
@@ -233,8 +213,7 @@ ul#menu li a:hover {
 
 .service_one,
 .service_two,
-.member_feedback,
-.table {
+.member_feedback {
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
   -ms-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.18);
