@@ -381,7 +381,7 @@ About
 }
 
 /*===============================================================================
-12.		Profile Image 
+Profile Image 
 =================================================================================*/
 
 .profile_img {
@@ -390,8 +390,38 @@ About
   margin-top: 25px;
 }
 
+.profile_image_border:before, .profile_image_border:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg,#47B5FF,#1363DF,#2078fc);
+	background-size: 1000%;
+	width: calc(100% + 5px);
+	height: calc(100% + 5px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+  border-radius: 200px
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.profile_image_border:after {
+	filter: blur(50px);
+}
+
 /*===============================================================================
-13.   Progress Bar and Fact Counter
+Progress Bar and Fact Counter
 =================================================================================*/
 
 /* progress-bar */
@@ -407,7 +437,7 @@ About
 
 .skill-progress .progress {
   margin: 5px 0 20px;
-  border-radius: 0px;
+  border-radius: 50px;
 }
 
 .skill-percent {
@@ -420,7 +450,7 @@ About
 }
 
 .progress-bar {
-  transition: all 3000ms ease 0s;
+  transition: all 5000ms ease 0s;
   width: 0;
 }
 
@@ -452,40 +482,10 @@ About
 }
 
 /*==================================================================================
-14.   Services One
+Services Two
 ====================================================================================*/
 
-.srvicon {
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  border-radius: 50%;
-  border: 5px solid;
-  margin-bottom: 15px;
-}
-
-.srvicon span:before {
-  font-size: 32px;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 62px;
-}
-
-.owl-nav {
-  margin-top: 50px !important;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.owl-nav button.owl-prev {
-  margin-right: 10px;
-}
-
-/*==================================================================================
-15.   Services Two
-====================================================================================*/
-
-.service_two p {
+.service_one p {
   padding: 30px 20px;
 }
 
@@ -516,7 +516,7 @@ About
   padding-right: 20px;
 }
 
-.service_two .srv_icon {
+.service_one .srv_icon {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -525,16 +525,16 @@ About
   margin: 0 auto;
 }
 
-.service_two .srv_icon span:before {
+.service_one .srv_icon span:before {
   font-size: 42px;
   line-height: 100px;
 }
 
-.service_two:hover .srv_item_number strong {
+.service_one:hover .srv_item_number strong {
   top: 0;
 }
 
-.service_two:hover .srv_icon {
+.service_one:hover .srv_icon {
   transform: rotateY(180deg);
 }
 
