@@ -118,8 +118,7 @@ ul#menu li a:hover {
 /*	Background Color Primary Class & ID
 ===================================================================*/
 
-#scroll,
-.sidenav {
+#scroll {
   background-color: #ffffff5d;
 }
 
@@ -142,10 +141,6 @@ ul#menu li a:hover {
 
 #scroll span {
   border-bottom-color: #1363df;
-}
-
-.srvicon {
-  border-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /*	Overlay Color
