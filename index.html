@@ -16,12 +16,20 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/color.css" id="color-change">
         <!--===== Favicon =====-->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
         <link
             rel="icon"
             type="image/png"
-            sizes="128x128"
-            href="images/favicon.png"
+            sizes="32x32"
+            href="images/favicon/favicon-32x32.png"
         >
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/favicon/favicon-16x16.png"
+        >
+        <link rel="manifest" href="/site.webmanifest">
         <!--===== Title =====-->
         <title>Francisco C. Portfolio</title>
     </head>
@@ -1329,24 +1337,8 @@
             <script src="js/bootstrap.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/jquery.pagepiling.min.js"></script>
-            <!-- <script src="js/disabler.js"></script> -->
+            <script src="js/disabler.js"></script>
             <script src="js/custom.js"></script>
-            <!--===== Smoothscroll Fix =====-->
-            <script>
-        $(document).ready(function () {
-
-            $("a").on('click', function (event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 1000, function () {
-                        window.location.hash = hash;
-                    });
-                }
-            });
-        });
-            </script>
+            <script src="js/smoothscroll.js"></script>
         </body>
     </html>
