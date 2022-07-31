@@ -13,7 +13,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Poppins:400,400i,600,600i,700,700i,800,800i");
 
 /*===================================================================================
-01.		Default Css
+Default Css
 =====================================================================================*/
 
 body {
@@ -25,8 +25,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -45,16 +43,6 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 36px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 h6 {
@@ -117,41 +105,12 @@ a.active {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-}
-
-.btn_info {
-  font-style: italic;
-  text-transform: capitalize;
-  padding: 0px;
-}
-
-.w_60 {
-  width: 60%;
-}
-
-.w_50 {
-  width: 50%;
-}
-
-.w_40 {
-  width: 40%;
-}
-
-.xy-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 11;
+  border-radius: 50px;
 }
 
 [class^="flaticon-"]:before,
 [class*=" flaticon-"]:before {
   margin-left: 0px !important;
-}
-
-.pp-scrollable {
-  overflow-y: scroll;
-  height: 100%;
 }
 
 .full_row {
@@ -168,62 +127,13 @@ a.active {
 }
 
 /*=====================================================================================
-02.		Default Margin and Padding
+Default Margin and Padding
 ========================================================================================*/
 
 /*  Margin 
 ======================*/
-
-.mx_10 {
-  margin: 0px 10px;
-}
-
-.my_60 {
-  margin: 60px 0px;
-}
-
-.mt_5 {
-  margin-top: 5px;
-}
-
 .mt_15 {
   margin-top: 15px;
-}
-
-.mt_60 {
-  margin-top: 60px;
-}
-
-.mb_60 {
-  margin-bottom: 60px;
-}
-
-.mt_30 {
-  margin-top: 30px;
-}
-
-.mt_100 {
-  margin-top: 100px;
-}
-
-.ml_105 {
-  margin-left: 105px;
-}
-
-.mr_20 {
-  margin-right: 20px;
-}
-
-.mr_60 {
-  margin-right: 60px;
-}
-
-.mb_15 {
-  margin-bottom: 15px;
-}
-
-.mb_20 {
-  margin-bottom: 20px;
 }
 
 .mb_30 {
@@ -233,48 +143,28 @@ a.active {
 /*  padding  
 ========================*/
 
-.p_30 {
-  padding: 30px;
-}
-
 .p_20 {
   padding: 20px;
 }
 
-.py_60 {
-  padding: 120px 0px;
+.pb_5{
+  padding-bottom: 5px;
 }
 
 .py_80 {
   padding: 80px 0px;
 }
 
-.pr_50 {
-  padding-right: 50px;
-}
-
 .pt_15 {
   padding-top: 15px;
-}
-
-.pt_30 {
-  padding-top: 30px;
-}
-
-.pt_60 {
-  padding-top: 60px;
 }
 
 .pb_60 {
   padding-bottom: 60px;
 }
 
-.pb_30 {
-  padding-bottom: 30px;
-}
-
 /*=======================================================================
-03.   Social Media
+Social Media
 =========================================================================*/
 
 .social_media_2 ul li {
@@ -297,29 +187,7 @@ a.active {
 }
 
 /*====================================================================
-04.   Massage Box
-======================================================================*/
-
-.contact_massage {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 0;
-  width: 60px;
-  height: 60px;
-  z-index: 111;
-}
-
-.contact_massage a {
-  font-size: 24px;
-  line-height: 60px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/*====================================================================
-05.		Main Title
+Main Title
 ======================================================================*/
 
 .section_title_1 .title span {
@@ -333,19 +201,10 @@ a.active {
   width: 60%;
 }
 
-.main_title p {
-  width: 40%;
-}
-
 .line_double {
   position: relative;
   text-transform: lowercase;
   padding: 0 50px !important;
-}
-
-.line_double::before,
-.line_double::after {
-  background-color: #bb2f2f;
 }
 
 .line_double::before {
@@ -374,50 +233,8 @@ a.active {
   top: 50%;
 }
 
-#pp-nav {
-  z-index: 11;
-}
-
-#pp-nav span,
-.pp-slidesNav span {
-  top: 2px;
-  left: 2px;
-  width: 10px;
-  height: 10px;
-  border: 2px solid;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-}
-
-#pp-nav li .active span:before {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: -4px;
-  left: -4px;
-  border-radius: 100%;
-  border: 1px solid #fff;
-}
-
-.widget_title {
-  position: relative;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.widget_title:before {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0px;
-  width: 50px;
-  height: 2px;
-}
-
 /*====================================================================
-06.   background Image
+Background Image/Video
 ======================================================================*/
 
 .overlay_fade {
@@ -427,7 +244,7 @@ a.active {
   height: 100%;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  opacity: 0.5;
+  opacity: 0.4;
   z-index: 1;
 }
 
@@ -446,12 +263,8 @@ video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-.bg_transparent {
-  background-color: transparent;
-}
-
 /*====================================================================
-07.   Nav Menu Css
+Nav Menu Css
 ======================================================================*/
 
 .navbar {
@@ -517,67 +330,8 @@ header {
   opacity: 1;
 }
 
-/*==================================================================================
-08.   Side Nav menu
-====================================================================================*/
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: 100;
-  padding: 30px 20px;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  text-decoration: none;
-  font-size: 14px;
-  display: block;
-}
-
-ul#menu li a {
-  margin: 7px 30px;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 36px;
-}
-
-.sidebar span {
-  font-size: 36px;
-  display: block;
-  text-align: center;
-}
-
-.sidebar img {
-  margin-bottom: 60px;
-}
-
-#mysidenav img {
-  width: 50px;
-  height: auto;
-  display: block;
-  margin: 15px 0px 30px 30px;
-}
-
 /*====================================================================
-09.   Main banner
+Main banner
 ======================================================================*/
 
 .banner_image {
@@ -1575,12 +1329,6 @@ label.radios {
     margin-left: 30px;
   }
 
-  .hover_overlay .border h4 {
-    margin-top: 15px;
-    font-size: 24px;
-    line-height: 20px;
-  }
-
   .hover_overlay .border strong {
     margin-bottom: 5px;
   }
@@ -1614,11 +1362,6 @@ label.radios {
     line-height: 20px;
   }
 
-  h4 {
-    font-size: 15px;
-    line-height: 18px;
-  }
-
   .border {
     padding: 10px;
   }
@@ -1634,11 +1377,6 @@ label.radios {
   .footer_bottom {
     margin-left: 70px;
   }
-
-  .share_post h4 {
-    line-height: 31px;
-  }
-}
 
 /*
 // Medium devices (tablets, 768px and up)
@@ -1675,12 +1413,6 @@ label.radios {
 
   .main_title p {
     width: 80%;
-  }
-
-  .hover_overlay .border h4 {
-    margin-top: 20px;
-    font-size: 28px;
-    line-height: 32px;
   }
 
   .hover_overlay .border strong {
@@ -1786,11 +1518,6 @@ label.radios {
     line-height: 24px;
   }
 
-  h4 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
   .btn {
     padding: 5px 15px;
     font-size: 12px;
@@ -1808,12 +1535,6 @@ label.radios {
 
   .main_title p {
     width: 90%;
-  }
-
-  .hover_overlay .border h4 {
-    margin-top: 0px;
-    font-size: 18px;
-    line-height: 20px;
   }
 
   .hover_overlay .border strong {
@@ -1966,8 +1687,6 @@ label.radios {
   h1,
   h2,
   h3,
-  h4,
-  h4,
   h6 {
     font-weight: 600;
   }
