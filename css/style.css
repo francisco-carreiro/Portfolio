@@ -254,7 +254,7 @@ Background Image/Video
 
 video {
   position: absolute;
-  width: 101% !important;
+
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -406,7 +406,7 @@ Profile Image
   width: calc(100% + 5px);
   height: calc(100% + 5px);
   z-index: -1;
-  animation: steam 20s linear infinite;
+  animation: steam 50s linear infinite;
   border-radius: 200px;
 }
 
@@ -415,7 +415,7 @@ Profile Image
     background-position: 0 0;
   }
   50% {
-    background-position: 400% 0;
+    background-position: 1000% 0;
   }
   100% {
     background-position: 0 0;
@@ -423,7 +423,7 @@ Profile Image
 }
 
 .profile_image_border:after {
-  filter: blur(50px);
+  filter: blur(45px);
 }
 
 /*===============================================================================
@@ -572,17 +572,17 @@ Portfolio
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 100%;
-  height: 100%;
+  width: 101% !important;
+  height: 101% !important;
   display: block;
-  opacity: 1;
+  opacity: 0.5;
   visibility: hidden;
 }
 
 .default-portfolio-item .overlay-box span {
   position: absolute;
   left: 0px;
-  top: 47%;
+  top: 30%;
   width: 100%;
   height: 100%;
   display: table;
@@ -592,7 +592,7 @@ Portfolio
 
 .default-portfolio-item .overlay-box span i.fa {
   text-align: center;
-  font-size: 24px;
+  font-size: 50px;
 }
 
 .filter-list .mix {
@@ -636,7 +636,9 @@ Portfolio
 }
 
 .overlay-box {
-  border: 3px solid;
+  width: 350px !important;
+  height: 210px !important;
+  border: 2.5px solid;
 }
 
 /*===============================================================================
@@ -904,14 +906,6 @@ Default Animation Css
   transform: scale(1, 1);
   opacity: 1;
   visibility: visible;
-}
-
-#pp-nav li .active span:before {
-  -ms-transition: all 400ms linear;
-  -moz-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  -webkit-transition: all 400ms linear;
-  transition: all 400ms linear;
 }
 
 /*  Transform
