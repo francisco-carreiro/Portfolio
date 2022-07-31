@@ -2,8 +2,10 @@
 //  01.   Preloader For Hide loader
 //  02.   Scroll Top
 //  03.   Navbar scrolling navbar Fixed
-//  04.   Skill Counter
-//  05.   Gallery With Filters List
+//  04.   Services Slider
+//  05.   Skill Counter
+//  06.   LightBox / Fancybox
+//  07.   Gallery With Filters List
 //=====================================================================================
 
 (function ($) {
@@ -70,7 +72,37 @@
   });
 
   //=====================================================================================
-  // 04.   Skill Counter
+  //  04.   Services Slider
+  //=====================================================================================
+
+  $(".services_item").owlCarousel({
+    loop: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    nav: true,
+    dots: false,
+    navText: [
+      '<span class="fa fa-angle-left"></span>',
+      '<span class="fa fa-angle-right"></span>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1024: {
+        items: 3,
+      },
+      1200: {
+        items: 3,
+      },
+    },
+  });
+
+  //=====================================================================================
+  // 05.   Skill Counter
   //=====================================================================================
 
   function factCounter() {
@@ -129,7 +161,17 @@
   });
 
   //=====================================================================================
-  //  05.   Gallery With Filters List
+  //  06.   LightBox / Fancybox
+  //=====================================================================================
+
+  $('[data-fancybox="gallery"]').fancybox({
+    animationEffect: "zoom-in-out",
+    transitionEffect: "slide",
+    transitionEffect: "slide",
+  });
+
+  //=====================================================================================
+  //  07.   Gallery With Filters List
   //=====================================================================================
 
   if ($(".filter-list").length) {
