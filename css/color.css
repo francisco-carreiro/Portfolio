@@ -45,7 +45,7 @@ others: #DFF6FF/#1363DF
 .btn-default:hover,
 .btn-default.active {
   background-color: #47b5ff;
-  color: #fff;
+  color: #000;
 }
 
 /*	Navbar Color
@@ -95,8 +95,7 @@ ul#menu li a:hover {
 
 .counter span:before,
 .default-portfolio-item .overlay-box span,
-.tag,
-.bg_blue .form label {
+.tag {
   color: #fff;
 }
 
@@ -188,7 +187,7 @@ ul#menu li a:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 
-/*	16.		Border color Light Gray
+/*	Border color Light Gray
 ===================================================================*/
 
 .personal_info ul li,
@@ -198,10 +197,6 @@ ul#menu li a:hover {
 
 .border {
   border-color: #1363df !important;
-}
-
-.form-control:focus {
-  border-color: #3c1e1e;
 }
 
 .main_nav {

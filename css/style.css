@@ -248,12 +248,13 @@ Background Image/Video
   height: 100%;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  opacity: 0.4;
+  opacity: 0.5;
   z-index: 1;
 }
 
 video {
   position: absolute;
+  width: 101% !important;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -1085,6 +1086,11 @@ Responsive Media Queries Css
       width: 100%;
     }
 
+    .profile_img {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
     .section_title_1 {
       width: 100%;
     }
@@ -1319,6 +1325,10 @@ Responsive Media Queries Css
     .filters ul li {
       margin: 0px 8px;
       font-size: 14px;
+    }
+
+    .profile_img {
+      margin-left: 35px;
     }
 
     .social_media_2 {
