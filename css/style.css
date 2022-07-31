@@ -147,7 +147,7 @@ Default Margin and Padding
   padding: 20px;
 }
 
-.pb_5{
+.pb_5 {
   padding-bottom: 5px;
 }
 
@@ -166,7 +166,6 @@ Default Margin and Padding
 .pt_15 {
   padding-top: 15px;
 }
-
 
 /*=======================================================================
 Social Media
@@ -395,34 +394,35 @@ Profile Image
   margin-top: 25px;
 }
 
-.profile_image_border:before, .profile_image_border:after {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	background: linear-gradient(45deg,#47B5FF,#1363DF,#2078fc);
-	background-size: 1000%;
-	width: calc(100% + 5px);
-	height: calc(100% + 5px);
-	z-index: -1;
-	animation: steam 20s linear infinite;
-  border-radius: 200px
+.profile_image_border:before,
+.profile_image_border:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #47b5ff, #1363df, #2078fc);
+  background-size: 1000%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+  border-radius: 200px;
 }
 
 @keyframes steam {
-	0% {
-		background-position: 0 0;
-	}
-	50% {
-		background-position: 400% 0;
-	}
-	100% {
-		background-position: 0 0;
-	}
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .profile_image_border:after {
-	filter: blur(50px);
+  filter: blur(50px);
 }
 
 /*===============================================================================
@@ -490,7 +490,7 @@ Progress Bar and Fact Counter
 Services
 ====================================================================================*/
 
-.service_one{
+.service_one {
   padding-bottom: 15px;
   padding-top: 15px;
 }
@@ -564,7 +564,7 @@ Portfolio
 
 .default-portfolio-item {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .default-portfolio-item .overlay-box {
@@ -601,7 +601,7 @@ Portfolio
 .gallery-section .filters {
   position: relative;
   text-align: center;
-  margin-bottom: px;
+  margin-bottom: 25px;
 }
 
 .gallery-section .filter-btns {
@@ -635,8 +635,8 @@ Portfolio
 }
 
 .overlay-box {
-  border: 2.5px solid;
-} 
+  border: 3px solid;
+}
 
 /*===============================================================================
 Contact
@@ -831,16 +831,8 @@ Back to Top
   border: 8px solid transparent;
 }
 
-/*===============================================================================
-Page Nav
-=================================================================================*/
-
-nav ul li.page-item {
-  margin-right: 7px;
-}
-
 /*============================================================================
-22.  Default Animation Css
+Default Animation Css
 =============================================================================*/
 
 /*  Nav Animation
@@ -887,22 +879,12 @@ nav ul li.page-item {
 /*  Default Animation
 ==========================================================================*/
 
-.default-portfolio-item .overlay-box,
-.table,
-.btn_info {
+.default-portfolio-item .overlay-box {
   -webkit-transition: all 400ms ease-out;
   -ms-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
-}
-
-.default-portfolio-item .overlay-box .arrow span i.fa:hover {
-  transition: all 0.6s ease 0s;
-  -webkit-transition: all 0.6s ease 0s;
-  -moz-transition: all 0.6s ease 0s;
-  -o-transition: all 0.6s ease 0s;
-  -ms-transition: all 0.6s ease 0s;
 }
 
 .default-portfolio-item .overlay-box {
@@ -955,13 +937,12 @@ nav ul li.page-item {
 }
 
 /*============================================================================
-23.   Color Settings
+Color Settings
 ==============================================================================*/
 
 #page_wrapper {
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #fff;
 }
 
 .box-layout {
@@ -975,299 +956,8 @@ nav ul li.page-item {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.body_overlay {
-  position: relative;
-  height: 100%;
-}
-
-.body_overlay:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-/*
-  Sidebar panel css
-======================================*/
-
-/*----- Input Radio Switch ----*/
-
-.template_style ul li {
-  float: left;
-  font-size: 13px;
-  margin-right: 10px;
-}
-
-.btn_link,
-.btn_link:hover {
-  color: #000;
-}
-
-.switcher_layout,
-.box_bg_style,
-.template_style {
-  border-top: 1px solid #e7e7e7;
-}
-
-.select_bg {
-  display: inline-block;
-  width: 100%;
-}
-
-.layout_title {
-  font-size: 14px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-.radio_check {
-  border-radius: 22px;
-  display: block;
-  height: 44px;
-  width: 100px;
-  position: relative;
-  overflow: hidden;
-}
-
-.radio_check input[type="checkbox"] {
-  display: none;
-}
-
-.radio_check label {
-  padding: 0 15px;
-  transform: translateX(0px);
-  width: 156px;
-  cursor: pointer;
-  max-width: inherit;
-}
-
-.radio_check input[type="checkbox"]:checked + label {
-  transform: translateX(-56px);
-}
-
-.radio_check label span {
-  line-height: 44px;
-  color: #fff;
-}
-
-.radio_check label span:first-child {
-  float: left;
-}
-
-.radio_check label span:last-child {
-  float: right;
-}
-
-.radio_check label::before {
-  background-color: #fff;
-  border-radius: 50%;
-  content: "";
-  height: 40px;
-  left: 58px;
-  position: absolute;
-  top: 2px;
-  width: 40px;
-  z-index: 1;
-}
-
-/*----- Box BG Image ----*/
-
-[type="radio"] {
-  display: none;
-}
-
-label.radios {
-  position: relative;
-  padding-left: 25px;
-  cursor: pointer;
-  font-weight: 500;
-  width: 30px;
-  height: 30px;
-  margin-bottom: -5px;
-}
-
-[type="radio"]:checked + label.radios::after {
-  font-family: FontAwesome;
-  content: "\f00c";
-  line-height: 28px;
-  border: 1px solid;
-  text-align: center;
-}
-
-.box_bg_style label::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-[type="radio"]:checked + label.radios::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 30px;
-  height: 30px;
-}
-
-.box_bg_style li {
-  float: left;
-  margin: 0 3px 0 0;
-}
-
-/*
-  Color Setting css
-================================================*/
-
-.on-panel {
-  height: 45px;
-  left: -45px;
-  position: absolute;
-  top: 0;
-  width: 45px;
-  cursor: pointer;
-  font-size: 7px;
-  line-height: 55px;
-}
-
-.color-panel {
-  position: fixed;
-  right: -225px;
-  top: 90px;
-  z-index: 111;
-  -webkit-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-}
-
-.color-panel.open {
-  right: 0;
-}
-
-.on-panel img {
-  padding: 10px;
-}
-
-.panel-box,
-.switcher_layout,
-.box_bg_style,
-.template_style {
-  padding: 10px 10px 10px 20px;
-  width: 225px;
-  background: #f8f8f8;
-  display: table;
-}
-
-.panel-box .panel-title {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.color-box {
-  display: table;
-  width: 100%;
-  text-align: left;
-}
-
-.color-box li {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-
-.scroll-btn {
-  position: fixed;
-  right: 30px;
-  bottom: 50px;
-  width: 35px;
-  height: 35px;
-  line-height: 33px;
-  text-align: center;
-  color: #fff;
-  z-index: 9;
-}
-
-.color-panel {
-  background-color: #fff;
-}
-
-.color-box li {
-  position: relative;
-  overflow: hidden;
-}
-
-.color-box li.active {
-  border: 2px solid #000;
-}
-
-.color-box li.default {
-  background-color: #ffb32f;
-}
-
-.color-box li.color_2 {
-  background-color: #90c923;
-}
-
-.color-box li.color_3 {
-  background-color: #00cad6;
-}
-
-.color-box li.color_4 {
-  background-color: #00cd7b;
-}
-
-.color-box li.color_5 {
-  background-color: #ffd633;
-}
-
-.color-box li.color_6 {
-  background-color: #d2bd7f;
-}
-
-.color-box li.color_7 {
-  background-color: #00fff7;
-}
-
-.color-box li.color_8 {
-  background-color: #f3c26b;
-}
-
-.color-box li.color_9 {
-  background-color: #ff3926;
-}
-
-.color-box li.color_10 {
-  background-color: #f89635;
-}
-
-.color-box li.color_11 {
-  background-color: #ffeb69;
-}
-
-.color-box li.color_12 {
-  background-color: #73b5ff;
-}
-
-.color-box li.color_13 {
-  background-color: #00a1f2;
-}
-
-.color-box li.color_14 {
-  background-color: #1da8ab;
-}
-
 /*=================================================================================
- 24.   Responsive Media Queries Css
+Responsive Media Queries Css
  ==================================================================================*/
 
 /*
@@ -1330,376 +1020,332 @@ label.radios {
     margin-left: 70px;
   }
 
-/*
+  /*
 // Medium devices (tablets, 768px and up)
 ============================================================*/
 
-@media (max-width: 991px) {
-  .main_nav {
-    background-color: #06283d !important;
+  @media (max-width: 991px) {
+    .main_nav {
+      background-color: #06283d !important;
+    }
+
+    .mainbanner_content p {
+      width: 71%;
+    }
+
+    .section_title_1 {
+      width: 75%;
+    }
+
+    .about_myskill h2 {
+      font-size: 30px;
+    }
+
+    .counter h3 {
+      font-size: 15px;
+    }
+
+    /*  horizontal and vertical version responsive css */
+
+    .services,
+    .contact,
+    .footer_bottom {
+      margin-left: 70px;
+    }
+
+    .main_title p {
+      width: 80%;
+    }
+
+    .hover_overlay .border strong {
+      font-size: 24px;
+    }
+
+    .hover_overlay .border p {
+      font-size: 16px;
+      line-height: 26px;
+      padding: 30px 30px 0px;
+    }
+
+    .contact_text span {
+      font-size: 13px;
+    }
+
+    .filters ul li {
+      margin: 0px 10px;
+    }
   }
 
-  .mainbanner_content p {
-    width: 71%;
-  }
-
-  .section_title_1 {
-    width: 75%;
-  }
-
-  .about_myskill h2 {
-    font-size: 30px;
-  }
-
-  .counter h3 {
-    font-size: 15px;
-  }
-
-  /*  horizontal and vertical version responsive css */
-
-  .services,
-  .contact,
-  .footer_bottom {
-    margin-left: 70px;
-  }
-
-  .main_title p {
-    width: 80%;
-  }
-
-  .hover_overlay .border strong {
-    font-size: 24px;
-  }
-
-  .hover_overlay .border p {
-    font-size: 16px;
-    line-height: 26px;
-    padding: 30px 30px 0px;
-  }
-
-  .contact_text span {
-    font-size: 13px;
-  }
-
-  .filters ul li {
-    margin: 0px 10px;
-  }
-
-  .table {
-    margin-bottom: 30px;
-  }
-
-  .widget {
-    padding: 20px 10px;
-    margin-bottom: 30px;
-  }
-
-  .replied {
-    margin-left: 40px;
-  }
-}
-
-/*
+  /*
 // Small devices (landscape phones, 576px and up)
 ============================================================*/
 
-@media (max-width: 767px) {
-  .mainbanner_content p {
-    width: 100%;
+  @media (max-width: 767px) {
+    .mainbanner_content p {
+      width: 100%;
+    }
+
+    .section_title_1 {
+      width: 100%;
+    }
+
+    .counter {
+      margin-bottom: 30px;
+    }
+
+    .filters ul li {
+      margin: 5px 10px;
+    }
+
+    .skill-progress {
+      margin-top: 20px;
+    }
+
+    /*  horizontal and vertical version responsive css */
+    .banner_title {
+      font-size: 18px;
+    }
+
+    .main_nav {
+      background-color: #06283d !important;
+    }
+
+    .sidebar img {
+      margin-bottom: 20px;
+    }
+
+    .navbar-brand {
+      text-align: left;
+      top: 0px;
+      position: absolute;
+      z-index: -2;
+    }
+
+    .contact_massage {
+      top: 20px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .contact_massage a {
+      font-size: 20px;
+      line-height: 50px;
+    }
+
+    h1 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .btn {
+      padding: 5px 15px;
+      font-size: 12px;
+    }
+
+    .services,
+    .contact,
+    .footer_bottom {
+      margin-left: 70px;
+    }
+
+    .main_title p {
+      width: 90%;
+    }
+
+    .hover_overlay .border strong {
+      font-size: 20px;
+    }
+
+    .hover_overlay .border p {
+      font-size: 16px;
+      line-height: 26px;
+      padding: 15px 15px 0px;
+    }
   }
 
-  .section_title_1 {
-    width: 100%;
-  }
-
-  .counter {
-    margin-bottom: 30px;
-  }
-
-  .filters ul li {
-    margin: 5px 10px;
-  }
-
-  .skill-progress {
-    margin-top: 20px;
-  }
-
-  /*  horizontal and vertical version responsive css */
-  .banner_title {
-    font-size: 18px;
-  }
-
-  .main_nav {
-    background-color: #06283d !important;
-  }
-
-  .sidebar img {
-    margin-bottom: 20px;
-  }
-
-  .navbar-brand {
-    text-align: left;
-    top: 0px;
-    position: absolute;
-    z-index: -2;
-  }
-
-  .contact_massage {
-    top: 20px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .contact_massage a {
-    font-size: 20px;
-    line-height: 50px;
-  }
-
-  h1 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  h2 {
-    font-size: 22px;
-    line-height: 26px;
-  }
-
-  h3 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .btn {
-    padding: 5px 15px;
-    font-size: 12px;
-  }
-
-  .sidebar {
-    padding: 15px 10px;
-  }
-
-  .services,
-  .contact,
-  .footer_bottom {
-    margin-left: 70px;
-  }
-
-  .main_title p {
-    width: 90%;
-  }
-
-  .hover_overlay .border strong {
-    font-size: 20px;
-  }
-
-  .hover_overlay .border p {
-    font-size: 16px;
-    line-height: 26px;
-    padding: 15px 15px 0px;
-  }
-
-  .footer-widget .main_title {
-    margin-top: 30px;
-  }
-
-  .pagination {
-    margin-bottom: 60px;
-  }
-
-  .reply_form {
-    margin-bottom: 60px;
-  }
-}
-
-/*
+  /*
 // Extra small devices (portrait phones, less than 576px)
 ============================================================*/
 
-@media (max-width: 575px) {
-  .mainbanner_content h1 {
-    font-size: 26px;
-    line-height: 34px;
+  @media (max-width: 575px) {
+    .mainbanner_content h1 {
+      font-size: 26px;
+      line-height: 34px;
+    }
+
+    .counter {
+      margin-bottom: 30px;
+    }
+
+    .banner_title {
+      font-size: 20px;
+    }
+
+    .mainbanner_content p {
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 21px;
+      width: 100%;
+    }
+
+    .section_title_1 {
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .section_title_1 .title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .skill-progress {
+      margin-top: 20px;
+    }
+
+    .about_myskill h2 {
+      font-size: 24px;
+    }
+
+    .main_nav {
+      background-color: #06283d !important;
+    }
+
+    .navbar-brand {
+      text-align: left;
+      top: 0px;
+      position: absolute;
+      z-index: -2;
+    }
+
+    .sidebar {
+      padding: 30px 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 23px;
+    }
+
+    h3 {
+      font-size: 17px;
+      line-height: 22px;
+    }
+
+    .btn {
+      padding: 5px 15px;
+      font-size: 12px;
+    }
+
+    .services,
+    .contact,
+    .footer_bottom {
+      margin-left: 70px;
+    }
+
+    .main_title p {
+      width: 100%;
+    }
+
+    .filters ul li {
+      margin: 0px 10px;
+    }
+
+    .tag ul li {
+      font-size: 12px;
+    }
+
+    .border {
+      padding: 12px;
+    }
+
+    .border p {
+      margin-bottom: 15px;
+      font-size: 13px;
+      line-height: 18px;
+    }
   }
 
-  .counter {
-    margin-bottom: 30px;
-  }
-
-  .banner_title {
-    font-size: 20px;
-  }
-
-  .mainbanner_content p {
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 21px;
-    width: 100%;
-  }
-
-  .section_title_1 {
-    width: 100%;
-    font-size: 14px;
-  }
-
-  .section_title_1 .title {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .skill-progress {
-    margin-top: 20px;
-  }
-
-  .about_myskill h2 {
-    font-size: 24px;
-  }
-
-  .main_nav {
-    background-color: #06283d !important;
-  }
-
-  .navbar-brand {
-    text-align: left;
-    top: 0px;
-    position: absolute;
-    z-index: -2;
-  }
-
-  .sidebar {
-    padding: 30px 10px;
-  }
-
-  h1 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  h2 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-
-  h3 {
-    font-size: 17px;
-    line-height: 22px;
-  }
-
-  .btn {
-    padding: 5px 15px;
-    font-size: 12px;
-  }
-
-  .services,
-  .contact,
-  .footer_bottom {
-    margin-left: 70px;
-  }
-
-  .main_title p {
-    width: 100%;
-  }
-
-  .filters ul li {
-    margin: 0px 10px;
-  }
-
-  .tag ul li {
-    font-size: 12px;
-  }
-
-  .border {
-    padding: 12px;
-  }
-
-  .border p {
-    margin-bottom: 15px;
-    font-size: 13px;
-    line-height: 18px;
-  }
-
-  .footer-widget .main_title {
-    margin-top: 30px;
-  }
-
-  .pagination {
-    margin-bottom: 60px;
-  }
-
-  .replied {
-    margin-left: 35px;
-  }
-}
-
-/* 
+  /* 
 //  (320x480) iPhone (Original, 3G, 3GS)
 ============================================================*/
 
-@media (max-width: 480px) {
-  h1,
-  h2,
-  h3,
-  h6 {
-    font-weight: 600;
-  }
+  @media (max-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h6 {
+      font-weight: 600;
+    }
 
-  body {
-    font-size: 14px;
-  }
+    body {
+      font-size: 14px;
+    }
 
-  h1 {
-    font-size: 18px;
-    line-height: 22px;
-  }
+    h1 {
+      font-size: 18px;
+      line-height: 22px;
+    }
 
-  .services,
-  .contact,
-  .footer_bottom {
-    margin-left: 55px;
-  }
+    .services,
+    .contact,
+    .footer_bottom {
+      margin-left: 55px;
+    }
 
-  .main_nav {
-    background-color: #06283d !important;
-  }
+    .main_nav {
+      background-color: #06283d !important;
+    }
 
-  .about_myskill h2 {
-    font-size: 24px;
-    line-height: 32px;
-  }
+    .about_myskill h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
 
-  .filters ul li {
-    margin: 0px 8px;
-    font-size: 14px;
-  }
+    .filters ul li {
+      margin: 0px 8px;
+      font-size: 14px;
+    }
 
-  .social_media_2 {
-    margin-bottom: 30px;
-  }
+    .social_media_2 {
+      margin-bottom: 30px;
+    }
 
-  /*  horizontal and vertical version responsive css */
+    /*  horizontal and vertical version responsive css */
 
-  .sidebar img {
-    margin-bottom: 25px;
-  }
+    .nav-item {
+      margin: 0px 10px 10px 0px;
+    }
 
-  .nav-item {
-    margin: 0px 10px 10px 0px;
-  }
+    .hover_overlay p {
+      font-size: 12px;
+    }
 
-  .hover_overlay p {
-    font-size: 12px;
-  }
+    .hover_overlay .border p {
+      font-size: 13px;
+      line-height: 22px;
+    }
 
-  .hover_overlay .border p {
-    font-size: 13px;
-    line-height: 22px;
-  }
+    .hover_overlay .border p {
+      padding: 0px;
+    }
 
-  .hover_overlay .border p {
-    padding: 0px;
-  }
-
-  .hover_overlay .border strong {
-    font-size: 15px;
+    .hover_overlay .border strong {
+      font-size: 15px;
+    }
   }
 }
