@@ -151,6 +151,14 @@ Default Margin and Padding
   padding-bottom: 5px;
 }
 
+.pb_15 {
+  padding-bottom: 15px;
+}
+
+.pb_60 {
+  padding-bottom: 60px;
+}
+
 .py_80 {
   padding: 80px 0px;
 }
@@ -159,9 +167,6 @@ Default Margin and Padding
   padding-top: 15px;
 }
 
-.pb_60 {
-  padding-bottom: 60px;
-}
 
 /*=======================================================================
 Social Media
@@ -485,6 +490,11 @@ Progress Bar and Fact Counter
 Services Two
 ====================================================================================*/
 
+.service_one{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
 .service_one p {
   padding: 30px 20px;
 }
@@ -493,7 +503,7 @@ Services Two
   position: relative;
   overflow: hidden;
   text-align: right;
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid #47b5ff;
 }
 
 .srv_item_number:after {
@@ -539,7 +549,7 @@ Services Two
 }
 
 /*===============================================================================
-16.		Portfolio
+Portfolio
 =================================================================================*/
 
 .filters ul li {
@@ -554,7 +564,7 @@ Services Two
 
 .default-portfolio-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .default-portfolio-item .overlay-box {
@@ -625,11 +635,11 @@ Services Two
 }
 
 .overlay-box {
-  border: 5px solid;
-}
+  border: 2.5px solid;
+} 
 
 /*===============================================================================
-17.   Contact
+Contact
 =================================================================================*/
 
 .contact_info ul li {
@@ -643,62 +653,12 @@ Services Two
   letter-spacing: 1px;
 }
 
-.form-control {
-  padding: 5px 15px;
-  font-size: 14px;
-  height: calc(30px + 15px);
-  margin-bottom: 30px;
-  border-radius: 0px;
-  border: none;
-  border-bottom: 1px solid;
-}
-
-.form-control:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-.error-handel {
-  position: relative;
-}
-
-.error-handel:before {
-  bottom: -30px;
-  display: table;
-  height: 35px;
-  left: 15px;
-  margin: auto 0;
-  position: absolute;
-  text-align: left;
-  width: 100%;
-}
-
-#success,
-#error {
-  display: none;
-  line-height: 34px;
-}
-
-#success,
-#error {
-  display: none;
-  line-height: 34px;
-}
-
-#success {
-  color: #31bb15;
-}
-
 .contact_text {
   display: table-cell;
 }
 
-.subscribe .form-control {
-  border-bottom: 0px;
-}
-
 /*===============================================================================
-18.   Preloader 
+Preloader 
 =================================================================================*/
 
 .preloader {
@@ -842,7 +802,7 @@ Services Two
 }
 
 /*===============================================================================
-19.   Back to Top
+Back to Top
 =================================================================================*/
 
 #scroll {
@@ -872,15 +832,7 @@ Services Two
 }
 
 /*===============================================================================
-20.   Page Banner
-=================================================================================*/
-
-.banner {
-  padding: 110px 0px;
-}
-
-/*===============================================================================
-21.   Page Nav
+Page Nav
 =================================================================================*/
 
 nav ul li.page-item {
