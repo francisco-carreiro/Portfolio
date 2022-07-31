@@ -350,17 +350,17 @@ Main banner
 }
 
 .banner_title {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .mainbanner_content p {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   width: 50%;
 }
 
 /*===============================================================================
-11.		About
+About
 =================================================================================*/
 
 .personal_info ul li {
