@@ -4,7 +4,7 @@
 
 # Portfolio V.2
 
-Abetter and improved portfolio made with a gallery but without ReactJS.
+A better and improved portfolio made with a gallery but without ReactJS.
 
 
 
